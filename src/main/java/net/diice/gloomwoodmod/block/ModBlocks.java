@@ -12,9 +12,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block STANDING_RUNE = registerBlock(.name: "standing_rune",
-        new net.minecraft.block.Block(AbstractBlock.Settings.create().strength(4f)
-                .requiresTool(PickaxeItem).sounds(BlockSoundGroup.STONE)));
+    public static final Block STANDING_RUNE = registerBlock(name: "standing_rune",
+        new net.minecraft.block.Block(AbstractBlock.Settings.create())
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
