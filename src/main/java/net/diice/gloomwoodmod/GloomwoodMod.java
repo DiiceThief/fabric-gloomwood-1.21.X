@@ -1,6 +1,5 @@
 package net.diice.gloomwoodmod;
 
-import net.diice.gloomwoodmod.block.ModBlocks;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
