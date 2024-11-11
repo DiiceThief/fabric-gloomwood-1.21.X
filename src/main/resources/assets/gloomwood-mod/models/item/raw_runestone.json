@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "later0": "gloomwoodmod:item/raw_runestone"
+  }
+}
