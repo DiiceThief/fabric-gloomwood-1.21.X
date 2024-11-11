@@ -1,5 +1,6 @@
 package net.diice.gloomwoodmod;
 
+import net.diice.gloomwoodmod.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -10,6 +11,7 @@ public class GloomwoodMod implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	@Override
 	public void onInitialize() {
+		ModBlocks.registerModBlocks();
 
 	}
 }
