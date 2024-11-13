@@ -1,5 +1,6 @@
 package net.diice.gloomwoodmod;
 
+import net.diice.gloomwoodmod.block.ModBlocks;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +13,7 @@ public class GloomwoodMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 
 	}
