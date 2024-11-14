@@ -4,6 +4,7 @@ import net.diice.gloomwoodmod.GloomwoodMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -16,7 +17,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block GLOOMWOOD_LOG = registerBlock("gloomwood_log",
-            new PillarBlock(AbstractBlock.Settings.create().strength(2f)
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).strength(2f)
                     .sounds(BlockSoundGroup.WOOD)));
 public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
         new Block(AbstractBlock.Settings.create().strength(2f)));
