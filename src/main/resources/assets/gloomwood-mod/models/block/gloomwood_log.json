@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "gloomwood-mod:block/gloomwood_log"
+    "end": "gloomwood-mod:block/gloomwood_log_stem",
+    "side": "gloomwood-mod:block/gloomwood_log_bark"
+
   }
 }

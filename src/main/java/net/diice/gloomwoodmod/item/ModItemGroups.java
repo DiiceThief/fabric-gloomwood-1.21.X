@@ -20,6 +20,7 @@ public class ModItemGroups {
                       entries.add(ModItems.RAW_RUNESTONE);
                       entries.add(ModBlocks.RAW_RUNESTONE_BLOCK);
                       entries.add(ModBlocks.GLOOMWOOD_PLANKS);
+                      entries.add(ModBlocks.GLOOMWOOD_LOG);
 
                     }).build());
     public static void registerItemGroups() {
