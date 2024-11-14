@@ -17,7 +17,8 @@ public class ModBlocks {
 
     public static final Block GLOOMWOOD_LOG = registerBlock("gloomwood_log",
             new PillarBlock(AbstractBlock.Settings.create().strength(2f)
-                    .sounds(BlockSoundGroup.WOOD)));
+                    .sounds(BlockSoundGroup.WOOD)),
+            "gloomwood_log", true  );
 public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
         new Block(AbstractBlock.Settings.create().strength(2f)));
     public static final Block RAW_RUNESTONE_BLOCK = registerBlock("raw_runestone_block",
