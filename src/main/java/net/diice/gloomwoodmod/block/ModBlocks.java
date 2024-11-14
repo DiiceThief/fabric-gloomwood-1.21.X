@@ -13,6 +13,9 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
+
+public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
+        new Block(AbstractBlock.Settings.create().strength(2f)));
     public static final Block RAW_RUNESTONE_BLOCK = registerBlock("raw_runestone_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
@@ -30,6 +33,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.RAW_RUNESTONE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.GLOOMWOOD_PLANKS);
         });
     }
 }
