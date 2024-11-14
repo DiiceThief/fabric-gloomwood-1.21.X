@@ -18,10 +18,10 @@ public class ModBlocks {
 
     public static final Block GLOOMWOOD_LOG = registerBlock("gloomwood_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).strength(2f)
-                    .sounds(BlockSoundGroup.WOOD)));
+                    .sounds(BlockSoundGroup.WOOD).burnable()));
     public static final Block STRIPPED_GLOOMWOOD_LOG = registerBlock("stripped_gloomwood_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG).strength(2f)
-                    .sounds(BlockSoundGroup.WOOD)));
+                    .sounds(BlockSoundGroup.WOOD).burnable()));
 
 public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
         new Block(AbstractBlock.Settings.create().strength(2f)));
