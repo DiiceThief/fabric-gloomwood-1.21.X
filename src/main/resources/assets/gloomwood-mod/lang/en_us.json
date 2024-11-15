@@ -2,9 +2,9 @@
   "item.gloomwood-mod.raw_runestone": "Raw Runestone",
 
   "block.gloomwood-mod.raw_runestone_block": "Block of Raw Runestone",
-  "block.gloomwood-mod.gloomwood_panks": "Gloomwood Planks",
   "block.gloomwood-mod.gloomwood_log": "Gloomwood Log",
   "block.gloomwood-mod.stripped_gloomwood_log": "Stripped Gloomwood Log",
+  "block.gloomwood-mod.gloomwood_planks": "Gloomwood Planks",
 
   "itemgroup.gloomwood-mod.gloomwood_items": "Gloomwood"
 }
