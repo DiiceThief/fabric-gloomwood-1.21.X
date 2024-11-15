@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catagory": "building",
+  "ingredients": [
+    {
+      "item": "gloomwood-mod:gloomwood_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "gloomwood-mod:gloomwood_planks"
+  }
+}
