@@ -22,9 +22,11 @@ public class ModBlocks {
     public static final Block STRIPPED_GLOOMWOOD_LOG = registerBlock("stripped_gloomwood_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG).strength(2f)
                     .sounds(BlockSoundGroup.WOOD).burnable()));
-
 public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
-        new Block(AbstractBlock.Settings.create().strength(2f)));
+        new Block(AbstractBlock.Settings.create().strength(2f).burnable()));
+
+
+
     public static final Block RAW_RUNESTONE_BLOCK = registerBlock("raw_runestone_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
@@ -32,6 +34,10 @@ public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(GloomwoodMod.MOD_ID, name), block);
     }
+
+
+
+
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(GloomwoodMod.MOD_ID, name),
         new BlockItem(block, new Item.Settings()));
