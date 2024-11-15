@@ -23,6 +23,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.GLOOMWOOD_LOG);
                       entries.add(ModBlocks.STRIPPED_GLOOMWOOD_LOG);
                       entries.add(ModBlocks.GLOOMWOOD_WOOD);
+                      entries.add(ModBlocks.STRIPPED_GLOOMWOOD_WOOD);
 
                     }).build());
     public static void registerItemGroups() {

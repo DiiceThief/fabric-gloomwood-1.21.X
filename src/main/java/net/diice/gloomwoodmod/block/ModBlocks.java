@@ -25,6 +25,9 @@ public class ModBlocks {
     public static final Block GLOOMWOOD_WOOD = registerBlock("gloomwood_wood",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD).strength(2f)
                     .sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block STRIPPED_GLOOMWOOD_WOOD = registerBlock("stripped_gloomwood_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD).strength(2f)
+                    .sounds(BlockSoundGroup.WOOD).burnable()));
 public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
         new Block(AbstractBlock.Settings.create().strength(2f).burnable()));
 
