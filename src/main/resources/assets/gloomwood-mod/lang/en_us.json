@@ -1,14 +1,22 @@
 {
   "item.gloomwood-mod.raw_runestone": "Raw Runestone",
 
-  "block.gloomwood-mod.raw_runestone_block": "Block of Raw Runestone",
   "block.gloomwood-mod.gloomwood_log": "Gloomwood Log",
   "block.gloomwood-mod.stripped_gloomwood_log": "Stripped Gloomwood Log",
   "block.gloomwood-mod.gloomwood_planks": "Gloomwood Planks",
   "block.gloomwood-mod.gloomwood_wood": "Gloomwood Wood",
   "block.gloomwood-mod.stripped_gloomwood_wood": "Stripped Gloomwood Wood",
-  "block.gloomwood-mod.runestone_ore": "Runestone Ore",
+  "block.gloomwood-mod.gloomwood_stairs": "Gloomwood Stairs",
+  "block.gloomwood-mod.gloomwood_slab": "Gloomwood Slab",
+  "block.gloomwood-mod.gloomwood_button": "Gloomwood Button",
+  "block.gloomwood-mod.gloomwood_door": "Gloomwood Door",
+  "block.gloomwood-mod.gloomwood_fence": "Gloomwood Fence",
+  "block.gloomwood-mod.gloomwood_fence_gate": "Gloomwood Fence Gate",
+  "block.gloomwood-mod.gloomwood_pressure_plate": "Gloomwood Pressure Plate",
+  "block.gloomwood-mod.gloomwood_trapdoor": "Gloomwood Door",
 
+  "block.gloomwood-mod.runestone_ore": "Runestone Ore",
+  "block.gloomwood-mod.raw_runestone_block": "Block of Raw Runestone",
 
   "itemgroup.gloomwood-mod.gloomwood_items": "Gloomwood"
 }

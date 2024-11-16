@@ -1,0 +1,4 @@
+// 1.21	2024-11-16T13:26:08.4429398	Gloomwood Mod/Tags for minecraft:block
+5b8a28c8087fc3389a23823d84e027e6c13a0650 data\minecraft\tags\block\needs_iron_tool.json
+5b8a28c8087fc3389a23823d84e027e6c13a0650 data\minecraft\tags\block\mineable\pickaxe.json
+065e96df470f846936fef7b2637695709c4cc491 data\minecraft\tags\block\mineable\axe.json

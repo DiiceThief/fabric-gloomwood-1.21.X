@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gloomwood-mod:gloomwood_log",
+    "gloomwood-mod:stripped_gloomwood_log",
+    "gloomwood-mod:gloomwood_wood",
+    "gloomwood-mod:stripped_gloomwood_wood",
+    "gloomwood-mod:gloomwood_planks",
+    "gloomwood-mod:gloomwood_slab",
+    "gloomwood-mod:gloomwood_stairs",
+    "gloomwood-mod:gloomwood_button",
+    "gloomwood-mod:gloomwood_door",
+    "gloomwood-mod:gloomwood_trapdoor",
+    "gloomwood-mod:gloomwood_fence",
+    "gloomwood-mod:gloomwood_fence_gate",
+    "gloomwood-mod:gloomwood_pressure_plate"
+  ]
+}

@@ -29,6 +29,27 @@ public class ModBlocks {
 public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
         new Block(AbstractBlock.Settings.create().strength(2f).burnable()));
 
+public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
+        new StairsBlock(ModBlocks.GLOOMWOOD_PLANKS.getDefaultState(),
+                AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block GLOOMWOOD_SLAB = registerBlock("gloomwood_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block GLOOMWOOD_BUTTON = registerBlock("gloomwood_button",
+            new ButtonBlock(BlockSetType.OAK, 15,
+                    AbstractBlock.Settings.create().strength(2f).requiresTool().noCollision()));
+    public static final Block GLOOMWOOD_PRESSURE_PLATE = registerBlock("gloomwood_pressure_plate",
+            new PressurePlateBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+
+    public static final Block GLOOMWOOD_FENCE = registerBlock("gloomwood_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block GLOOMWOOD_FENCE_GATE = registerBlock("gloomwood_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool()));
+    public static final Block GLOOMWOOD_DOOR = registerBlock("gloomwood_door",
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+    public static final Block GLOOMWOOD_TRAPDOOR = registerBlock("gloomwood_trapdoor",
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+
 
 
     public static final Block RAW_RUNESTONE_BLOCK = registerBlock("raw_runestone_block",
