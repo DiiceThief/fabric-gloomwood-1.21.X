@@ -42,7 +42,7 @@
                 },
                 {
                   "enchantment": "minecraft:fortune",
-                  "formula": "minecraft_ore_drops",
+                  "formula": "minecraft:ore_drops",
                   "function": "minecraft:apply_bonus"
                 },
                 {
