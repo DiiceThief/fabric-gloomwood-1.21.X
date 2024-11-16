@@ -8,10 +8,10 @@
           "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft_item",
+              "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft_match_tool",
+                  "condition": "minecraft:match_tool",
                   "predictate": {
                     "predictates": {
                       "minecraft:enchantments": [
