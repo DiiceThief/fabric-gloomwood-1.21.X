@@ -8,6 +8,8 @@ import net.minecraft.registry.tag.BlockTags;
 
 import java.util.concurrent.CompletableFuture;
 
+import static net.minecraft.registry.tag.BlockTags.*;
+
 public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
@@ -15,7 +17,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+        getOrCreateTagBuilder(AXE_MINEABLE)
                 .add(ModBlocks.GLOOMWOOD_LOG)
                 .add(ModBlocks.STRIPPED_GLOOMWOOD_LOG)
                 .add(ModBlocks.GLOOMWOOD_WOOD)
@@ -30,11 +32,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GLOOMWOOD_FENCE_GATE)
                 .add(ModBlocks.GLOOMWOOD_PRESSURE_PLATE);
 
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+        getOrCreateTagBuilder(PICKAXE_MINEABLE)
                 .add(ModBlocks.RAW_RUNESTONE_BLOCK)
                 .add(ModBlocks.RUNESTONE_ORE);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+        getOrCreateTagBuilder(NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_RUNESTONE_BLOCK)
                 .add(ModBlocks.RUNESTONE_ORE);
     }
