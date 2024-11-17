@@ -20,6 +20,7 @@ public class GloomwoodMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		FuelRegistry.INSTANCE.add(ModItems.GLOOM_RESIN, 800);
+		FuelRegistry.INSTANCE.add(ModBlocks.GLOOM_RESIN_BLOCK, 8000);
 
 	}
 

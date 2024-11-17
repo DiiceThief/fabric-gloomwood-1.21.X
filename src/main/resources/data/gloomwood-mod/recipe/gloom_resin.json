@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catagory": "building",
+  "ingredients": [
+    {
+      "item": "gloomwood-mod:gloom_resin_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "gloomwood-mod:gloom_resin"
+  }
+}
