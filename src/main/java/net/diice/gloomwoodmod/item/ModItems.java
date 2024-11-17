@@ -12,14 +12,12 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item RAW_RUNESTONE = registerItem("raw_runestone", new Item(new Item.Settings()));
 
+    public static final Item GLOOM_RESIN = registerItem("gloom_resin", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GloomwoodMod.MOD_ID, name), item);
     }
     public static void registerModItems(){
         GloomwoodMod.LOGGER.info("Registering Mod Items for" + GloomwoodMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(RAW_RUNESTONE);
-        });
     }
 }

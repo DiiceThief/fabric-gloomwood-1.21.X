@@ -18,6 +18,8 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.gloomwood-mod.gloomwood_items"))
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.RAW_RUNESTONE);
+                      entries.add(ModItems.GLOOM_RESIN);
+
                       entries.add(ModBlocks.RAW_RUNESTONE_BLOCK);
                       entries.add(ModBlocks.GLOOMWOOD_PLANKS);
                       entries.add(ModBlocks.GLOOMWOOD_LOG);
