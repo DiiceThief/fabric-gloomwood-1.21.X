@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gloomwood-mod:item/gloom_dial"
+  }
+}
