@@ -43,8 +43,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GLOOMWOOD_BUTTON);
         addDrop(ModBlocks.GLOOMWOOD_TRAPDOOR);
 
+        addDrop(ModBlocks.RUNESTONE_ORE, multipleOreDrops(ModBlocks.RUNESTONE_ORE, ModItems.RAW_RUNESTONE, 1, 3));
+    }
 
-
-
+        public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
+            RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
+            return this.dropsWithSilkTouch(drop, (LootPoolEntry.Builder<?>)this.applyExplosionDecay(
+                            drop,
+                    ItemEntry.builder(item).apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(minDrops, maxDrops))))
+                    .apply(ApplyBonusLootFunction.oreDrops(impl.getOrThrow(Enchantments.FORTUNE))));
     }
 }

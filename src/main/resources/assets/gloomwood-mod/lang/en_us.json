@@ -21,5 +21,8 @@
   "block.gloomwood-mod.raw_runestone_block": "Block of Raw Runestone",
   "block.gloomwood-mod.gloom_resin_block": "Gloom Resin Block",
 
-  "itemgroup.gloomwood-mod.gloomwood_items": "Gloomwood"
+  "itemgroup.gloomwood-mod.gloomwood_items": "Gloomwood",
+
+  "tooltip.gloomwood-mod.gloom_dial.shift_down": "Draws the Gloomwood into the Overworld...",
+  "tooltip.gloomwood-mod.gloom_dial": "Press Shift for more Information"
 }

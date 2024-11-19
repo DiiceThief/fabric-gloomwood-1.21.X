@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "gloomwood-mod:block/gloomwood_log_stem",
-    "side": "gloomwood-mod:block/gloomwood_log_bark"
-
-  }
-}
