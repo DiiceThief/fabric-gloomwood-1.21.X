@@ -15,7 +15,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool gloomwoodplanksPool = blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOMWOOD_PLANKS);
+        BlockStateModelGenerator.BlockTexturePool gloomwoodplanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOOMWOOD_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUNESTONE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_RESIN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUNESTONE_BLOCK);

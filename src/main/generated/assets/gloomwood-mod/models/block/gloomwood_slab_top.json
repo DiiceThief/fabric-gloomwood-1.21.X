@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "gloomwood-mod:block/gloomwood_planks",
+    "side": "gloomwood-mod:block/gloomwood_planks",
+    "top": "gloomwood-mod:block/gloomwood_planks"
+  }
+}

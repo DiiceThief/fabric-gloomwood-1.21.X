@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gloomwood-mod:block/gloomwood_slab"
+    },
+    "type=double": {
+      "model": "gloomwood-mod:block/gloomwood_planks"
+    },
+    "type=top": {
+      "model": "gloomwood-mod:block/gloomwood_slab_top"
+    }
+  }
+}

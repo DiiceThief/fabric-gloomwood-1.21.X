@@ -5,11 +5,13 @@ import net.diice.gloomwoodmod.block.ModBlocks;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.data.server.recipe.CraftingRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -49,6 +51,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.RAW_RUNESTONE_BLOCK), conditionsFromItem(ModBlocks.RAW_RUNESTONE_BLOCK))
                 .offerTo(recipeExporter);
 
-
+        createDoorRecipe(ModBlocks.GLOOMWOOD_DOOR, ModBlocks.GLOOMWOOD_PLANKS); {
+            return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 3).input('#',
+                    ModBlocks.GLOOMWOOD_PLANKS).pattern("##").pattern("##").pattern("##");
+        }
+        }
     }
-}
+

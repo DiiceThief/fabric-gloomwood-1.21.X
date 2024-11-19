@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "gloomwood-mod:block/gloomwood_planks"
+  }
+}

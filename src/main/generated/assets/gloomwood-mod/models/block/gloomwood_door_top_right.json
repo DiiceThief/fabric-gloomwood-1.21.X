@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "gloomwood-mod:block/gloomwood_door_bottom",
+    "top": "gloomwood-mod:block/gloomwood_door_top"
+  }
+}
