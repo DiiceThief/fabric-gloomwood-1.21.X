@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "gloomwood-mod:raw_runestone_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "gloomwood-mod:raw_runestone"
+  }
+}
