@@ -53,17 +53,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.RAW_RUNESTONE_BLOCK), conditionsFromItem(ModBlocks.RAW_RUNESTONE_BLOCK))
                 .offerTo(recipeExporter);
 
-        createDoorRecipe(ModBlocks.GLOOMWOOD_PLANKS, ModBlocks.GLOOMWOOD_DOOR); {
-            return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.GLOOMWOOD_DOOR, 3)
-                    .input('#', ModBlocks.GLOOMWOOD_PLANKS)
-                    .pattern("##")
-                    .pattern("##")
-                    .pattern("##")
-                    .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS, conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS)))
-                    .offerTo(recipeExporter);
-
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.GLOOMWOOD_DOOR, 3)
+                .input('P', ModBlocks.GLOOMWOOD_PLANKS)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
+                .offerTo(recipeExporter);
         }
-        }
-
-
     }
+
