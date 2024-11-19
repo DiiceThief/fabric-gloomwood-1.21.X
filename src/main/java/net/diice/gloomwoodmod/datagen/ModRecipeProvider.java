@@ -58,7 +58,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("PP")
                 .pattern("PP")
                 .input('P', ModBlocks.GLOOMWOOD_PLANKS)
-                .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
+                .criterion(hasItem(ModBlocks.GLOOMWOOD_DOOR), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
                 .offerTo(recipeExporter);
         }
     }
