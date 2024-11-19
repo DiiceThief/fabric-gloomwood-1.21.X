@@ -54,10 +54,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.GLOOMWOOD_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
                 .input('P', ModBlocks.GLOOMWOOD_PLANKS)
-                .pattern("PP")
-                .pattern("PP")
-                .pattern("PP")
                 .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
                 .offerTo(recipeExporter);
         }
