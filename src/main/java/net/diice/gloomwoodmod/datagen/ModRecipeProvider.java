@@ -62,4 +62,3 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
         }
     }
-
