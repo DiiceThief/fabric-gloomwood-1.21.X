@@ -5,6 +5,8 @@ import net.diice.gloomwoodmod.block.ModBlocks;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.minecraft.block.Block;
+import net.minecraft.data.family.BlockFamilies;
 import net.minecraft.data.server.recipe.CraftingRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
@@ -51,10 +53,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.RAW_RUNESTONE_BLOCK), conditionsFromItem(ModBlocks.RAW_RUNESTONE_BLOCK))
                 .offerTo(recipeExporter);
 
-        createDoorRecipe(ModBlocks.GLOOMWOOD_DOOR, ModBlocks.GLOOMWOOD_PLANKS); {
-            return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, output, 3).input('#',
-                    ModBlocks.GLOOMWOOD_PLANKS).pattern("##").pattern("##").pattern("##");
-        }
-        }
-    }
+        createDoorRecipe(ModBlocks.GLOOMWOOD_PLANKS, ModBlocks.GLOOMWOOD_DOOR); {
+            return ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.GLOOMWOOD_DOOR, 3)
+                    .input('#', ModBlocks.GLOOMWOOD_PLANKS)
+                    .pattern("##")
+                    .pattern("##")
+                    .pattern("##")
+                    .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS, conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS)))
+                    .offerTo(recipeExporter);
 
+        }
+        }
+
+
+    }
