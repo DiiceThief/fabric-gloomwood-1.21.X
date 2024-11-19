@@ -22,12 +22,13 @@ public class ModItemGroups {
                       entries.add(ModItems.GLOOM_DIAL);
 
                       entries.add(ModBlocks.RAW_RUNESTONE_BLOCK);
+                      entries.add(ModBlocks.RUNESTONE_ORE);
+
                       entries.add(ModBlocks.GLOOMWOOD_PLANKS);
                       entries.add(ModBlocks.GLOOMWOOD_LOG);
                       entries.add(ModBlocks.STRIPPED_GLOOMWOOD_LOG);
                       entries.add(ModBlocks.GLOOMWOOD_WOOD);
                       entries.add(ModBlocks.STRIPPED_GLOOMWOOD_WOOD);
-                      entries.add(ModBlocks.RUNESTONE_ORE);
                       entries.add(ModBlocks.GLOOMWOOD_STAIRS);
                       entries.add(ModBlocks.GLOOMWOOD_BUTTON);
                       entries.add(ModBlocks.GLOOMWOOD_DOOR);

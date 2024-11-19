@@ -39,5 +39,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_RUNESTONE_BLOCK)
                 .add(ModBlocks.RUNESTONE_ORE);
+
+        getOrCreateTagBuilder(WOODEN_FENCES).add(ModBlocks.GLOOMWOOD_FENCE);
+        getOrCreateTagBuilder(FENCE_GATES).add(ModBlocks.GLOOMWOOD_FENCE_GATE);
     }
 }

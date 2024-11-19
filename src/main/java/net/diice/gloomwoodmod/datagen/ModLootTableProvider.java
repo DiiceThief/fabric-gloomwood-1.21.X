@@ -44,6 +44,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GLOOMWOOD_TRAPDOOR);
 
         addDrop(ModBlocks.RUNESTONE_ORE, multipleOreDrops(ModBlocks.RUNESTONE_ORE, ModItems.RAW_RUNESTONE, 1, 3));
+
+        addDrop(ModBlocks.GLOOMWOOD_STAIRS);
+        addDrop(ModBlocks.GLOOMWOOD_BUTTON);
+        addDrop(ModBlocks.GLOOMWOOD_PRESSURE_PLATE);
+        addDrop(ModBlocks.GLOOMWOOD_FENCE_GATE);
+        addDrop(ModBlocks.GLOOMWOOD_FENCE);
+        addDrop(ModBlocks.GLOOMWOOD_TRAPDOOR);
+
+        addDrop(ModBlocks.GLOOMWOOD_DOOR, doorDrops(ModBlocks.GLOOMWOOD_DOOR));
+        addDrop(ModBlocks.GLOOMWOOD_SLAB, slabDrops(ModBlocks.GLOOMWOOD_SLAB));
     }
 
         public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
