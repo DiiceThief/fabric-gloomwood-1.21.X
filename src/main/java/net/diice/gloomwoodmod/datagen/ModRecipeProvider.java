@@ -48,17 +48,5 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.GLOOM_RESIN_BLOCK), conditionsFromItem(ModBlocks.GLOOM_RESIN_BLOCK))
                 .offerTo(recipeExporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_RUNESTONE, 9)
-                .input(ModBlocks.RAW_RUNESTONE_BLOCK)
-                .criterion(hasItem(ModBlocks.RAW_RUNESTONE_BLOCK), conditionsFromItem(ModBlocks.RAW_RUNESTONE_BLOCK))
-                .offerTo(recipeExporter);
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.GLOOMWOOD_DOOR, 3)
-                .pattern("PP")
-                .pattern("PP")
-                .pattern("PP")
-                .input('P', ModBlocks.GLOOMWOOD_PLANKS)
-                .criterion(hasItem(ModBlocks.GLOOMWOOD_DOOR), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
-                .offerTo(recipeExporter);
         }
     }
