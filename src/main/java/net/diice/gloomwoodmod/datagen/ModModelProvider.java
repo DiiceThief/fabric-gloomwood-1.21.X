@@ -31,11 +31,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.GLOOMWOOD_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.GLOOMWOOD_TRAPDOOR);
 
-        Identifier lampOffIdentifier = TexturedModel.CUBE_COLUMN.upload(ModBlocks.GLOOM_FRUIT, blockStateModelGenerator.modelCollector);
-        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.GLOOM_FRUIT, "_on", Models.CUBE_COLUMN, TextureMap::);
-        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.GLOOM_FRUIT)
-                .coordinate(BlockStateModelGenerator.createBooleanModelMap(GloomFruit.CLICKED, lampOnIdentifier, lampOffIdentifier)));
-
     }
 
     @Override

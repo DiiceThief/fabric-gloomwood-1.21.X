@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "gloomwood-mod:block/gloom_fruit_covered"
+    },
+    "clicked=true": {
+      "model": "gloomwood-mod:block/gloom_fruit_uncovered"
+    }
+  }
+}
