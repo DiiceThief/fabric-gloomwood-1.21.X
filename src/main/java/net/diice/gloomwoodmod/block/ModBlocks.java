@@ -64,7 +64,7 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
 
     public static final Block GLOOM_FRUIT = registerBlock("gloom_fruit",
             new GloomFruit(AbstractBlock.Settings.create()
-                    .strength(1f).requiresTool().luminance(state -> state.get(GloomFruit.CLICKED) ? 15 : 0)));
+                    .strength(3f).requiresTool().luminance(state -> state.get(GloomFruit.CLICKED) ? 15 : 0)));
 
 
 
