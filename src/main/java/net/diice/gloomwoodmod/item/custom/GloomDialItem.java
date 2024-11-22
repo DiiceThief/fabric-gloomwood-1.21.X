@@ -2,6 +2,7 @@ package net.diice.gloomwoodmod.item.custom;
 
 import net.diice.gloomwoodmod.GloomwoodMod;
 import net.diice.gloomwoodmod.block.ModBlocks;
+import net.diice.gloomwoodmod.component.ModDataComponentTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
@@ -53,6 +54,8 @@ public class GloomDialItem extends Item {
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_AMETHYST_BLOCK_CHIME, SoundCategory.BLOCKS);
 
+                context.getStack().set(ModDataComponentTypes.COORDINATES, context.getBlockPos());
+
             }
         }
 
@@ -65,6 +68,9 @@ public class GloomDialItem extends Item {
             tooltip.add(Text.translatable("tooltip.gloomwood-mod.gloom_dial.shift_down"));
         } else {
             tooltip.add(Text.translatable("tooltip.gloomwood-mod.gloom_dial"));
+        }
+        if (stack.get(ModDataComponentTypes.COORDINATES) !=null) {
+            tooltip.add(Text.literal("Last Block Changed at" + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);

@@ -37,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RAW_RUNESTONE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLOOM_RESIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GLOOM_RESIN_INGOT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.GLOOM_DIAL, Models.GENERATED);
 

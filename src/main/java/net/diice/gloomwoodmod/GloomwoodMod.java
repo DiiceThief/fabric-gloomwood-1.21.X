@@ -1,6 +1,7 @@
 package net.diice.gloomwoodmod;
 
 import net.diice.gloomwoodmod.block.ModBlocks;
+import net.diice.gloomwoodmod.component.ModDataComponentTypes;
 import net.diice.gloomwoodmod.item.ModItemGroups;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,6 +19,8 @@ public class GloomwoodMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModDataComponentTypes.registerDataComponentTypes();
 
 		FuelRegistry.INSTANCE.add(ModItems.GLOOM_RESIN, 800);
 		FuelRegistry.INSTANCE.add(ModBlocks.GLOOM_RESIN_BLOCK, 8000);

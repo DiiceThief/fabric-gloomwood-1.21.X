@@ -19,6 +19,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.RAW_RUNESTONE);
                       entries.add(ModItems.GLOOM_RESIN);
+                      entries.add(ModItems.GLOOM_RESIN_INGOT);
                       entries.add(ModItems.GLOOM_DIAL);
 
                       entries.add(ModBlocks.RAW_RUNESTONE_BLOCK);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "catagory": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "gloom_resin",
+  "ingredient": {
+    "item": "gloomwood-mod:gloom_resin"
+  },
+  "result": {
+    "id": "gloomwood-mod:gloom_resin_ingot"
+  }
+}
