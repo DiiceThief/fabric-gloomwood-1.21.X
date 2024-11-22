@@ -1,6 +1,7 @@
 package net.diice.gloomwoodmod.block;
 
 import net.diice.gloomwoodmod.GloomwoodMod;
+import net.diice.gloomwoodmod.block.custom.GloomFruit;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -61,12 +62,16 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
     public static final Block GLOOM_RESIN_BLOCK = registerBlock("gloom_resin_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.BONE)));
 
+    public static final Block GLOOM_FRUIT = registerBlock("gloom_fruit",
+            new GloomFruit(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(GloomFruit.CLICKED) ? 15 : 0)));
+
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(GloomwoodMod.MOD_ID, name), block);
     }
-
-
 
 
     private static void registerBlockItem(String name, Block block) {

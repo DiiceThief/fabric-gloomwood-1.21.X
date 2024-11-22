@@ -40,6 +40,8 @@ public class ModItemGroups {
 
                       entries.add(ModBlocks.GLOOM_RESIN_BLOCK);
 
+                      entries.add(ModBlocks.GLOOM_FRUIT);
+
                     }).build());
     public static void registerItemGroups() {
         GloomwoodMod.LOGGER.info("Registering Item Groups for" + GloomwoodMod.MOD_ID);
