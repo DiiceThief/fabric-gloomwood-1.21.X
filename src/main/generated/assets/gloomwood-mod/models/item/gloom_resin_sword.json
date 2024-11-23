@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "gloomwood-mod:item/gloom_resin_sword"
+    "layer0": "gloomwood-mod:item/resin_sword"
   }
 }

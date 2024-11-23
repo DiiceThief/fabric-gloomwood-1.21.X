@@ -23,7 +23,7 @@ public class ModItems {
     public static final Item GLOOM_RESIN_PICKAXE = registerItem("gloom_resin_pickaxe", new PickaxeItem(ModToolMaterials.GLOOM_RESIN,
             new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.GLOOM_RESIN, 3, -2.4f))));
 
-    public static final Item GLOOM_RESIN_AXE = registerItem("gloom_resin_sword", new AxeItem(ModToolMaterials.GLOOM_RESIN,
+    public static final Item GLOOM_RESIN_AXE = registerItem("gloom_resin_axe", new AxeItem(ModToolMaterials.GLOOM_RESIN,
             new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.GLOOM_RESIN, 6, -3.0f))));
 
     public static final Item GLOOM_RESIN_SHOVEL = registerItem("gloom_resin_shovel", new ShovelItem(ModToolMaterials.GLOOM_RESIN,
