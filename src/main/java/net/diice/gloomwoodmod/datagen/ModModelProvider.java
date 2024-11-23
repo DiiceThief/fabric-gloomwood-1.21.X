@@ -41,5 +41,10 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.GLOOM_DIAL, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.GLOOM_RESIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLOOM_RESIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLOOM_RESIN_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLOOM_RESIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLOOM_RESIN_HOE, Models.HANDHELD);
     }
 }

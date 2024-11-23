@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:incorrect_for_diamond_tool"
+  ],
+  "remove": [
+    "#gloomwood-mod:needs_gloom_resin_tool"
+  ]
+}

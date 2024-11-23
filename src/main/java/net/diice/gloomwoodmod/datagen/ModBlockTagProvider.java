@@ -1,6 +1,7 @@
 package net.diice.gloomwoodmod.datagen;
 
 import net.diice.gloomwoodmod.block.ModBlocks;
+import net.diice.gloomwoodmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -42,5 +43,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(WOODEN_FENCES).add(ModBlocks.GLOOMWOOD_FENCE);
         getOrCreateTagBuilder(FENCE_GATES).add(ModBlocks.GLOOMWOOD_FENCE_GATE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GLOOM_RESIN_TOOL)
+                .addTag(NEEDS_DIAMOND_TOOL);
     }
 }

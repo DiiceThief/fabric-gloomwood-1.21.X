@@ -1,11 +1,13 @@
 package net.diice.gloomwoodmod.datagen;
 
+import net.diice.gloomwoodmod.item.ModItems;
 import net.diice.gloomwoodmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -27,6 +29,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.CHERRY_LOG)
                 .add(Items.COAL_BLOCK)
                 .add(Items.IRON_ORE);
+
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.GLOOM_RESIN_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.GLOOM_RESIN_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.GLOOM_RESIN_AXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.GLOOM_RESIN_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.GLOOM_RESIN_HOE);
 
     }
 }

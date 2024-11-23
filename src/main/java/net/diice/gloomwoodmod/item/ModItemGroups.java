@@ -22,6 +22,12 @@ public class ModItemGroups {
                       entries.add(ModItems.GLOOM_RESIN_INGOT);
                       entries.add(ModItems.GLOOM_DIAL);
 
+                      entries.add(ModItems.GLOOM_RESIN_SWORD);
+                        entries.add(ModItems.GLOOM_RESIN_PICKAXE);
+                        entries.add(ModItems.GLOOM_RESIN_AXE);
+                        entries.add(ModItems.GLOOM_RESIN_SHOVEL);
+                        entries.add(ModItems.GLOOM_RESIN_HOE);
+
                       entries.add(ModBlocks.RAW_RUNESTONE_BLOCK);
                       entries.add(ModBlocks.RUNESTONE_ORE);
 
