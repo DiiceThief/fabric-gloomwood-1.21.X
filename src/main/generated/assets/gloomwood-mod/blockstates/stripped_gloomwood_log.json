@@ -6,7 +6,7 @@
       "y": 90
     },
     "axis=y": {
-      "model": "gloomwood-mod:stripped_gloomwood_log"
+      "model": "gloomwood-mod:block/stripped_gloomwood_log"
     },
     "axis=z": {
       "model": "gloomwood-mod:block/stripped_gloomwood_log_horizontal",
