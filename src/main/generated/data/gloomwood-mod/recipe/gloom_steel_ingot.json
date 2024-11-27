@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "gloomwood-mod:gloom_alloy"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "E G",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "gloomwood-mod:gloom_steel_ingot"
+  }
+}

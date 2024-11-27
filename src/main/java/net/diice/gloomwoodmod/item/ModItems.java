@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item GLOOM_RESIN_INGOT = registerItem("gloom_resin_ingot", new Item(new Item.Settings()));
     public static final Item GLOOM_MIXTURE = registerItem("gloom_mixture", new Item(new Item.Settings()));
     public static final Item GLOOM_ALLOY = registerItem("gloom_alloy", new Item(new Item.Settings()));
+public static final Item GLOOM_STEEL_INGOT = registerItem("gloom_steel_ingot", new Item(new Item.Settings()));
 
     public static final Item GLOOM_DIAL = registerItem("gloom_dial", new GloomDialItem(new Item.Settings().maxDamage(64)));
 
