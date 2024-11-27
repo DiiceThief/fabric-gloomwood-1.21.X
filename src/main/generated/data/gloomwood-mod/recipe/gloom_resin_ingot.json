@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "gloomwood-mod:gloom_resin_ingot_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "gloomwood-mod:gloom_resin_ingot"
+  }
+}

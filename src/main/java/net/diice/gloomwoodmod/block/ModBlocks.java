@@ -66,6 +66,10 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
             new GloomFruit(AbstractBlock.Settings.create()
                     .strength(3f).requiresTool().luminance(state -> state.get(GloomFruit.CLICKED) ? 15 : 0)));
 
+    public static final Block GLOOM_RESIN_INGOT_BLOCK = registerBlock("gloom_resin_ingot_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+
 
 
     private static Block registerBlock(String name, Block block) {

@@ -46,6 +46,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.GLOOMWOOD_TRAPDOOR);
 
                       entries.add(ModBlocks.GLOOM_RESIN_BLOCK);
+                      entries.add(ModBlocks.GLOOM_RESIN_INGOT_BLOCK);
 
                       entries.add(ModBlocks.GLOOM_FRUIT);
 
