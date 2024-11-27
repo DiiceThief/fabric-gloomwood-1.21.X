@@ -21,6 +21,8 @@ public class ModItemGroups {
                       entries.add(ModItems.GLOOM_RESIN);
                       entries.add(ModItems.GLOOM_RESIN_INGOT);
                       entries.add(ModItems.GLOOM_DIAL);
+                      entries.add(ModItems.GLOOM_ALLOY);
+                      entries.add(ModItems.GLOOM_MIXTURE);
 
                       entries.add(ModItems.GLOOM_RESIN_SWORD);
                         entries.add(ModItems.GLOOM_RESIN_PICKAXE);

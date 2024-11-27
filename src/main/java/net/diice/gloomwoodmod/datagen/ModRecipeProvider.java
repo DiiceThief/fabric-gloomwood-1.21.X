@@ -43,6 +43,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.GLOOM_DIAL), conditionsFromItem(ModItems.GLOOM_DIAL))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GLOOM_MIXTURE)
+                .pattern("$#")
+                .input('$', ModItems.GLOOM_RESIN)
+                .input('#', ModItems.RAW_RUNESTONE)
+                        .criterion(hasItem(ModItems.GLOOM_RESIN), conditionsFromItem(ModItems.GLOOM_RESIN))
+                                .offerTo(recipeExporter);
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GLOOM_RESIN, 9)
                 .input(ModBlocks.GLOOM_RESIN_BLOCK)
                 .criterion(hasItem(ModBlocks.GLOOM_RESIN_BLOCK), conditionsFromItem(ModBlocks.GLOOM_RESIN_BLOCK))
@@ -53,7 +60,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.GLOOMWOOD_LOG), conditionsFromItem(ModBlocks.GLOOMWOOD_LOG))
                 .offerTo(recipeExporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_WOOD)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_WOOD, 3)
                 .pattern("##")
                 .pattern("##")
                 .input('#', ModBlocks.GLOOMWOOD_LOG)

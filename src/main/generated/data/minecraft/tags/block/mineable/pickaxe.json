@@ -1,6 +1,7 @@
 {
   "values": [
     "gloomwood-mod:raw_runestone_block",
-    "gloomwood-mod:runestone_ore"
+    "gloomwood-mod:runestone_ore",
+    "gloomwood-mod:gloom_resin_ingot_block"
   ]
 }

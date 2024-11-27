@@ -35,11 +35,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(PICKAXE_MINEABLE)
                 .add(ModBlocks.RAW_RUNESTONE_BLOCK)
-                .add(ModBlocks.RUNESTONE_ORE);
+                .add(ModBlocks.RUNESTONE_ORE)
+                .add(ModBlocks.GLOOM_RESIN_INGOT_BLOCK);
 
         getOrCreateTagBuilder(NEEDS_IRON_TOOL)
                 .add(ModBlocks.RAW_RUNESTONE_BLOCK)
-                .add(ModBlocks.RUNESTONE_ORE);
+                .add(ModBlocks.RUNESTONE_ORE)
+                .add(ModBlocks.GLOOM_RESIN_INGOT_BLOCK);
 
         getOrCreateTagBuilder(WOODEN_FENCES).add(ModBlocks.GLOOMWOOD_FENCE);
         getOrCreateTagBuilder(FENCE_GATES).add(ModBlocks.GLOOMWOOD_FENCE_GATE);
