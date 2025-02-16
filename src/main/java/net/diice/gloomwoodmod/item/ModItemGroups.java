@@ -48,6 +48,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.GLOOMWOOD_FENCE_GATE);
                       entries.add(ModBlocks.GLOOMWOOD_PRESSURE_PLATE);
                       entries.add(ModBlocks.GLOOMWOOD_TRAPDOOR);
+                      entries.add(ModBlocks.GLOOM_LEAVES);
 
                       entries.add(ModBlocks.GLOOM_RESIN_BLOCK);
                       entries.add(ModBlocks.GLOOM_RESIN_INGOT_BLOCK);

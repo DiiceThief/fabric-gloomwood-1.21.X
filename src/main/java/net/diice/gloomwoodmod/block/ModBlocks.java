@@ -50,6 +50,8 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block GLOOMWOOD_TRAPDOOR = registerBlock("gloomwood_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+    public static final Block GLOOM_LEAVES = registerBlock("gloom_leaves",
+            new LeavesBlock(AbstractBlock.Settings.create().strength( 2f).requiresTool().nonOpaque()));
 
 
 
