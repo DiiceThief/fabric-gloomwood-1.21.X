@@ -56,6 +56,8 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
     public static final Block RAW_RUNESTONE_BLOCK = registerBlock("raw_runestone_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block GLOOM_STONE = registerBlock("gloom_stone",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block RUNESTONE_ORE = registerBlock("runestone_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));

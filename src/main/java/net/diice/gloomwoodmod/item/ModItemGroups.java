@@ -33,6 +33,7 @@ public class ModItemGroups {
 
                       entries.add(ModBlocks.RAW_RUNESTONE_BLOCK);
                       entries.add(ModBlocks.RUNESTONE_ORE);
+                      entries.add(ModBlocks.GLOOM_STONE);
 
                       entries.add(ModBlocks.GLOOMWOOD_PLANKS);
                       entries.add(ModBlocks.GLOOMWOOD_LOG);
