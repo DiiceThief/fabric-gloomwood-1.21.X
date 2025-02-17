@@ -1,7 +1,8 @@
-// 1.21	2025-02-17T13:26:15.1137431	Gloomwood Mod/Recipes
+// 1.21	2025-02-17T13:30:50.4464159	Gloomwood Mod/Recipes
 bd943f74bd50aebc2663c5db2fcb05390a6b8eed data\gloomwood-mod\advancement\recipes\building_blocks\gloomwood_wood.json
 4df364947873b5cac3c74b26d74692de3a5cd97e data\gloomwood-mod\recipe\gloom_mixture.json
 a259e36b76f7c0ab1232461f73c89f311fc814e2 data\gloomwood-mod\advancement\recipes\tools\gloom_steel_hoe.json
+ea0865bc35afaadcbb5bfc13627c49ca8ff2643e data\gloomwood-mod\advancement\recipes\combat\gloom_steel_chestplate.json
 d2dba9311f9f345a6b2a7ba61c22a3192b24dea4 data\gloomwood-mod\recipe\gloom_resin_sword.json
 dec7aacc30721de7dbc6bdb20a56cf3d51052832 data\gloomwood-mod\advancement\recipes\building_blocks\raw_runestone_block.json
 86d439f2d171e2330f7f9666bab2a5702a376c89 data\gloomwood-mod\recipe\gloom_steel_shovel.json
@@ -27,15 +28,20 @@ b32108fa80840c9467d2ac969e2e3fc74c2939de data\gloomwood-mod\recipe\gloom_resin.j
 5078eb7ca3f3f32058905e5ebb97dc82d7385e33 data\gloomwood-mod\advancement\recipes\misc\gloom_mixture.json
 10e5b0fc4e0cccb5f8d0a801905087543773c09c data\gloomwood-mod\recipe\gloom_steel_hoe.json
 bf63d8dbe7319879fd9b81449dfbb20b18748da7 data\gloomwood-mod\advancement\recipes\combat\gloom_resin_helmet.json
+b93484f7103eee23346524c413cc4ddac1a809ea data\gloomwood-mod\advancement\recipes\combat\gloom_steel_boots.json
 7c8eacfe92f29e4e7eaead8ed6c39bcb2d95aee8 data\gloomwood-mod\recipe\stripped_gloomwood_wood.json
 4e78c388aba18818adff1656d157b3c7cc2ff930 data\gloomwood-mod\recipe\gloomwood_pressure_plate.json
 332bfd66542e0cf7fa7683167e07917c2f8110b7 data\gloomwood-mod\recipe\gloom_resin_pickaxe.json
 4d3e2e2b0f2f6bd377666cad0acc020af609b188 data\gloomwood-mod\advancement\recipes\tools\gloom_steel_axe.json
+e5d38837669aa7c1bc8c37dc6e8dbbab70429abb data\gloomwood-mod\recipe\gloom_steel_helmet.json
+c57cca59ec170f3c6832596fb079388a1c39613d data\gloomwood-mod\recipe\gloom_steel_boots.json
 1333a012578c4ea91b5290b6ad430f40e14a9e67 data\gloomwood-mod\advancement\recipes\building_blocks\gloom_steel_block.json
 d8edfe92b2953eff14e4b04bd31584fff3d0b313 data\gloomwood-mod\recipe\gloomwood_trapdoor.json
 559ab570e7de75f6932b9cbed834e1fd07a365af data\gloomwood-mod\recipe\gloom_dial.json
 eb4950eac3fcfec1a0ec7300365346e1abeae843 data\gloomwood-mod\recipe\gloom_resin_shovel.json
+ba7f29af9c4608b33e095203f37692c4a6d21e4a data\gloomwood-mod\recipe\gloom_steel_chestplate.json
 a469d01bbf61b35aa58bff1a0755d137c682e3e6 data\gloomwood-mod\advancement\recipes\tools\gloom_resin_axe.json
+1a0b4bd3fd075f409cbc8031c040161afad1af2f data\gloomwood-mod\advancement\recipes\combat\gloom_steel_leggings.json
 4a0cb2bad30fb606cce0d11e19f30435d82ad06a data\gloomwood-mod\recipe\gloom_steel_axe.json
 e40bc590f1260d2478ddade10ba009a140afde32 data\gloomwood-mod\advancement\recipes\combat\gloom_resin_boots.json
 c43c5efadec8424ede73c061d841a3354042daed data\gloomwood-mod\advancement\recipes\misc\gloom_dial.json
@@ -49,7 +55,9 @@ b3c933de6278e65cb00a759ef0b6d69fa6efaab1 data\gloomwood-mod\advancement\recipes\
 eb841fa79ee825ac353672c3bd573d5f12d94e09 data\gloomwood-mod\recipe\gloom_resin_leggings.json
 5f8d6060adbf50ec69ae7bfecb64976d64991b2f data\gloomwood-mod\recipe\gloomwood_wood.json
 ec73ce18913ad1f6d3b341d9d3ac9835a9621af0 data\gloomwood-mod\advancement\recipes\building_blocks\gloom_resin_block.json
+612eca7d3cd8d870134af452a7d61d17cf54cf9a data\gloomwood-mod\recipe\gloom_steel_leggings.json
 97662ac527ee04931a8fccbb59c851b92c2168da data\gloomwood-mod\advancement\recipes\combat\gloom_resin_sword.json
 f5562ded8d338b1dbc44659d6dc27d848897f204 data\gloomwood-mod\advancement\recipes\building_blocks\gloom_resin.json
+98e39bb455f489fb0caf8706ff13b9f30da5190b data\gloomwood-mod\advancement\recipes\combat\gloom_steel_helmet.json
 9188d250edb789eb9c64756f71da46fb93a8c541 data\gloomwood-mod\recipe\gloom_steel_ingot.json
 57db1ebd3a40b7e287123c0922e9949a0a472f97 data\gloomwood-mod\recipe\gloom_resin_axe.json

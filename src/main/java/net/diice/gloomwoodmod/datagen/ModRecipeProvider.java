@@ -202,5 +202,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', ModItems.GLOOM_RESIN_INGOT)
                 .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
                 .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_STEEL_HELMET, 1)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_STEEL_BOOTS, 1)
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_STEEL_LEGGINGS, 1)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_STEEL_CHESTPLATE, 1)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
+                .offerTo(recipeExporter);
     }
 }
