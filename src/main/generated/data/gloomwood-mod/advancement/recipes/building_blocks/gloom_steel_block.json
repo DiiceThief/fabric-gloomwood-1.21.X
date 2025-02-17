@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gloom_steel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gloomwood-mod:gloom_steel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gloom_steel_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gloom_steel_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gloom_steel_block"
+    ]
+  }
+}
