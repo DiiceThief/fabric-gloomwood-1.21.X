@@ -72,6 +72,9 @@ public static final Item GLOOM_STEEL_INGOT = registerItem("gloom_steel_ingot", n
             new ArmorItem(ModArmorMaterials.GLOOM_STEEL_ARMOR_MATERIAL,
                     ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
 
+    public static final Item RESIN_BOW = registerItem("resin_bow",
+            new BowItem(new Item.Settings().maxDamage(770)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GloomwoodMod.MOD_ID, name), item);

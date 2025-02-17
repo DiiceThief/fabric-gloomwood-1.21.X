@@ -47,6 +47,8 @@ public class ModItemGroups {
                         entries.add(ModItems.GLOOM_STEEL_LEGGINGS);
                         entries.add(ModItems.GLOOM_STEEL_BOOTS);
 
+                        entries.add(ModItems.RESIN_BOW);
+
                       entries.add(ModBlocks.RAW_RUNESTONE_BLOCK);
                       entries.add(ModBlocks.RUNESTONE_ORE);
                       entries.add(ModBlocks.GLOOM_STONE);

@@ -1,0 +1,6 @@
+{
+  "parent": "gloomwood-mod:item/resin_bow",
+  "textures": {
+    "layer0": "gloomwood-mod:item/resin_bow_pulling_2"
+  }
+}
