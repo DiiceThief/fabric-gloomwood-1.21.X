@@ -29,8 +29,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter recipeExporter) {
 
-        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.GLOOM_RESIN, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOM_RESIN_BLOCK);
-        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_RUNESTONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_RUNESTONE_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS,
+                ModItems.GLOOM_RESIN, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOM_RESIN_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS,
+                ModItems.RAW_RUNESTONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RAW_RUNESTONE_BLOCK);
+        offerReversibleCompactingRecipes(recipeExporter, RecipeCategory.BUILDING_BLOCKS,
+                ModItems.GLOOM_STEEL_INGOT, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOM_STEEL_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GLOOM_DIAL)
                 .pattern("GRG")

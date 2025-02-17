@@ -68,6 +68,7 @@ public class ModItemGroups {
 
                       entries.add(ModBlocks.GLOOM_RESIN_BLOCK);
                       entries.add(ModBlocks.GLOOM_RESIN_INGOT_BLOCK);
+                      entries.add(ModBlocks.GLOOM_STEEL_BLOCK);
 
                       entries.add(ModBlocks.GLOOM_FRUIT);
 
