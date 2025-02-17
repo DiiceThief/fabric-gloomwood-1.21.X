@@ -52,5 +52,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_BOOTS));
+
     }
 }

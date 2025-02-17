@@ -44,6 +44,19 @@ public static final Item GLOOM_STEEL_INGOT = registerItem("gloom_steel_ingot", n
             new ArmorItem(ModArmorMaterials.GLOOM_RESIN_ARMOR_MATERIAL,
                     ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
 
+    public static final Item GLOOM_STEEL_BOOTS = registerItem("gloom_steel_boots",
+            new ArmorItem(ModArmorMaterials.GLOOM_STEEL_ARMOR_MATERIAL,
+                    ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+    public static final Item GLOOM_STEEL_LEGGINGS = registerItem("gloom_steel_leggings",
+            new ArmorItem(ModArmorMaterials.GLOOM_STEEL_ARMOR_MATERIAL,
+                    ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+    public static final Item GLOOM_STEEL_CHESTPLATE = registerItem("gloom_steel_chestplate",
+            new ArmorItem(ModArmorMaterials.GLOOM_STEEL_ARMOR_MATERIAL,
+                    ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
+    public static final Item GLOOM_STEEL_HELMET = registerItem("gloom_steel_helmet",
+            new ArmorItem(ModArmorMaterials.GLOOM_STEEL_ARMOR_MATERIAL,
+                    ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GloomwoodMod.MOD_ID, name), item);

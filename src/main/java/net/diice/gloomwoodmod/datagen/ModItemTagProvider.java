@@ -45,6 +45,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GLOOM_RESIN_HELMET)
                 .add(ModItems.GLOOM_RESIN_CHESTPLATE)
                 .add(ModItems.GLOOM_RESIN_LEGGINGS)
-                .add(ModItems.GLOOM_RESIN_BOOTS);
+                .add(ModItems.GLOOM_RESIN_BOOTS)
+                .add(ModItems.GLOOM_STEEL_BOOTS)
+                .add(ModItems.GLOOM_STEEL_CHESTPLATE)
+                .add(ModItems.GLOOM_STEEL_LEGGINGS)
+                .add(ModItems.GLOOM_STEEL_BOOTS);
     }
 }
