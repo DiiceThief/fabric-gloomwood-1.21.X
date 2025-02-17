@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "gloomwood-mod:block/gloom_fruit_end",
-    "side": "gloomwood-mod:block/gloom_fruit_side_lit"
-  }
-}

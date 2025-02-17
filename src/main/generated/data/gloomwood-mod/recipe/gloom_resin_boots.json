@@ -4,18 +4,14 @@
   "key": {
     "#": {
       "item": "gloomwood-mod:gloom_resin_ingot"
-    },
-    "S": {
-      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "###",
-    " S ",
-    " S "
+    "# #",
+    "# #"
   ],
   "result": {
     "count": 1,
-    "id": "gloomwood-mod:gloom_resin_pickaxe"
+    "id": "gloomwood-mod:gloom_resin_boots"
   }
 }

@@ -54,11 +54,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.GLOOM_RESIN), conditionsFromItem(ModItems.GLOOM_RESIN))
                 .offerTo(recipeExporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GLOOM_RESIN, 9)
-                .input(ModBlocks.GLOOM_RESIN_BLOCK)
-                .criterion(hasItem(ModBlocks.GLOOM_RESIN_BLOCK), conditionsFromItem(ModBlocks.GLOOM_RESIN_BLOCK))
-                .offerTo(recipeExporter);
-
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_PLANKS, 4)
                 .input(ModBlocks.GLOOMWOOD_LOG)
                 .criterion(hasItem(ModBlocks.GLOOMWOOD_LOG), conditionsFromItem(ModBlocks.GLOOMWOOD_LOG))
@@ -76,10 +71,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
                 .offerTo(recipeExporter);
 
-        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_PLANKS)
-                .input(ModBlocks.GLOOMWOOD_LOG)
-                .criterion(hasItem(ModBlocks.GLOOMWOOD_LOG), conditionsFromItem(ModBlocks.GLOOMWOOD_LOG))
-                .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.GLOOMWOOD_PRESSURE_PLATE, 1)
                 .pattern("##")
@@ -180,6 +171,36 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', ModItems.GLOOM_STEEL_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_RESIN_HELMET, 1)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ModItems.GLOOM_RESIN_INGOT)
+                .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_RESIN_BOOTS, 1)
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.GLOOM_RESIN_INGOT)
+                .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_RESIN_LEGGINGS, 1)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.GLOOM_RESIN_INGOT)
+                .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_RESIN_CHESTPLATE, 1)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.GLOOM_RESIN_INGOT)
+                .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
                 .offerTo(recipeExporter);
     }
 }

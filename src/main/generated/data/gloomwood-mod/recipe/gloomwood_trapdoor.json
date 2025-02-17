@@ -1,7 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "group": "wooden_trapdoor",
+  "category": "misc",
   "key": {
     "#": {
       "item": "gloomwood-mod:gloomwood_planks"

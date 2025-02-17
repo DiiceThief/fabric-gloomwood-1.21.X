@@ -3,19 +3,19 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "gloomwood-mod:gloom_resin_ingot"
+      "item": "gloomwood-mod:gloom_steel_ingot"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "###",
-    " S ",
-    " S "
+    "#",
+    "S",
+    "S"
   ],
   "result": {
     "count": 1,
-    "id": "gloomwood-mod:gloom_resin_pickaxe"
+    "id": "gloomwood-mod:gloom_steel_shovel"
   }
 }

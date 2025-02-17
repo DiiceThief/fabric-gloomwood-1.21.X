@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "gloomwood-mod:block/stripped_gloomwood_log",
-    "side": "gloomwood-mod:block/stripped_gloomwood_log"
-  }
-}
