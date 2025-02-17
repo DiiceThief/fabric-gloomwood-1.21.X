@@ -1,4 +1,4 @@
-// 1.21	2025-02-17T13:56:47.3009721	Gloomwood Mod/Model Definitions
+// 1.21	2025-02-17T14:27:37.8552955	Gloomwood Mod/Model Definitions
 024217f230778fb88c79e0c7989db60cc0bbf4c8 assets\gloomwood-mod\blockstates\gloom_resin_block.json
 6d95fad8763b7b3a68c125a1680fb1b149ade436 assets\gloomwood-mod\models\block\gloomwood_pressure_plate.json
 0a73eebc998838f7b694998d4e159a42d1ebcf82 assets\gloomwood-mod\models\block\gloomwood_door_top_left_open.json
@@ -114,8 +114,8 @@ c4652056695f8de9be73db606d7a396b709af468 assets\gloomwood-mod\models\block\gloom
 30fb4325a899e42ec2a9ece97bb20a15cc19abbb assets\gloomwood-mod\blockstates\gloomwood_pressure_plate.json
 b225fb83439f9c155d9c8843701f0d9f4406a444 assets\gloomwood-mod\models\item\gloom_resin_boots_copper_trim.json
 e4ad2f72fee1ade018e21f427c0665f96ca1c885 assets\gloomwood-mod\models\item\gloom_resin_leggings_lapis_trim.json
-3c5a0288e79be2747c1fa604303275bc908e57ef assets\gloomwood-mod\blockstates\gloomwood_stairs.json
 c13f833a56891c110cc12ac635ceddfd0e112fe1 assets\gloomwood-mod\models\item\gloom_resin_chestplate.json
+3c5a0288e79be2747c1fa604303275bc908e57ef assets\gloomwood-mod\blockstates\gloomwood_stairs.json
 401871fbd9a9591b885f1b02cb413ce9d50dd5c0 assets\gloomwood-mod\models\block\gloomwood_button.json
 599e7ad10ecf702d3181c930be6ed2eb7bce4d0f assets\gloomwood-mod\models\item\gloom_steel_boots_redstone_trim.json
 ba0a9973ed8dfe28b6f0c66cc2debfe3dbbbc106 assets\gloomwood-mod\models\item\gloomwood_trapdoor.json
@@ -140,8 +140,8 @@ f33946f008b75365e2dd9f609f62cadbdbade913 assets\gloomwood-mod\models\item\gloom_
 30e2fa3c0c77dc541083848ddfc68665386922d6 assets\gloomwood-mod\models\item\gloom_steel_boots_emerald_trim.json
 71a170b9aacd75aa6e0097255780bd71c7cf29b5 assets\gloomwood-mod\models\item\gloom_steel_helmet_gold_trim.json
 9438c73046b448bfe2e059f3c6d6e5034c218dc3 assets\gloomwood-mod\models\item\gloom_steel_leggings_diamond_trim.json
-c63f98a3d96bd84a71b4c6ea17612d4d979de4f7 assets\gloomwood-mod\models\item\gloom_resin_helmet_diamond_trim.json
 d7577aad65d82b3b519c3ea57d58c380c37985fe assets\gloomwood-mod\models\item\gloom_resin_leggings_quartz_trim.json
+c63f98a3d96bd84a71b4c6ea17612d4d979de4f7 assets\gloomwood-mod\models\item\gloom_resin_helmet_diamond_trim.json
 cea88989f4ad42717fc38d5b9f329847b63f9a9c assets\gloomwood-mod\models\block\gloomwood_button_pressed.json
 33871c2cfea332373a134f43c9caa31ca70e282f assets\gloomwood-mod\models\item\gloom_resin_chestplate_redstone_trim.json
 7ba6a8e4ad98c77209142002754cc64059e72c2f assets\gloomwood-mod\models\item\gloom_steel_chestplate_quartz_trim.json

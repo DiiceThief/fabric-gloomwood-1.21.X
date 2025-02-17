@@ -27,9 +27,6 @@
   "item.gloomwood-mod.gloom_steel_leggings": "Gloom Steel Leggings",
   "item.gloomwood-mod.gloom_steel_boots": "Gloom Steel Boots",
 
-
-
-
   "block.gloomwood-mod.gloomwood_log": "Gloomwood Log",
   "block.gloomwood-mod.stripped_gloomwood_log": "Stripped Gloomwood Log",
   "block.gloomwood-mod.gloomwood_planks": "Gloomwood Planks",
@@ -44,6 +41,7 @@
   "block.gloomwood-mod.gloomwood_pressure_plate": "Gloomwood Pressure Plate",
   "block.gloomwood-mod.gloomwood_trapdoor": "Gloomwood Door",
   "block.gloomwood-mod.gloom_leaves": "Gloom Leaves",
+  "block.gloomwood-mod.gloomwood_sign": "Gloomwood Sign",
 
   "block.gloomwood-mod.runestone_ore": "Runestone Ore",
   "block.gloomwood-mod.raw_runestone_block": "Block of Raw Runestone",

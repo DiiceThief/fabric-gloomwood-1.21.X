@@ -164,6 +164,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_RESIN_HOE, 1)
+                .pattern("##")
+                .pattern(" S")
+                .pattern(" S")
+                .input('#', ModItems.GLOOM_RESIN_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
+                .offerTo(recipeExporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_STEEL_HOE, 1)
                 .pattern("##")
                 .pattern(" S")

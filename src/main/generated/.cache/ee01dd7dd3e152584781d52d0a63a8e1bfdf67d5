@@ -1,4 +1,4 @@
-// 1.21	2025-02-17T13:56:47.3053629	Gloomwood Mod/Recipes
+// 1.21	2025-02-17T14:27:37.8592939	Gloomwood Mod/Recipes
 bd943f74bd50aebc2663c5db2fcb05390a6b8eed data\gloomwood-mod\advancement\recipes\building_blocks\gloomwood_wood.json
 4df364947873b5cac3c74b26d74692de3a5cd97e data\gloomwood-mod\recipe\gloom_mixture.json
 a259e36b76f7c0ab1232461f73c89f311fc814e2 data\gloomwood-mod\advancement\recipes\tools\gloom_steel_hoe.json
@@ -7,6 +7,7 @@ d2dba9311f9f345a6b2a7ba61c22a3192b24dea4 data\gloomwood-mod\recipe\gloom_resin_s
 dec7aacc30721de7dbc6bdb20a56cf3d51052832 data\gloomwood-mod\advancement\recipes\building_blocks\raw_runestone_block.json
 86d439f2d171e2330f7f9666bab2a5702a376c89 data\gloomwood-mod\recipe\gloom_steel_shovel.json
 215b59788dbf33e84ff59f843feb79f4f821a810 data\gloomwood-mod\recipe\gloomwood_button.json
+ef1acd3fd78c76600d0a9c767a3816c21f99c2e4 data\gloomwood-mod\advancement\recipes\tools\gloom_resin_hoe.json
 8c7090e0fa8599989210cb5a792e81f0ecf7cabe data\gloomwood-mod\recipe\raw_runestone_block.json
 cb005cca0990ebcf3e591b5520c5198493234a74 data\gloomwood-mod\recipe\gloom_resin_helmet.json
 727dfa93bdaff3aa5683451fa61a5f5cc50973f7 data\gloomwood-mod\advancement\recipes\tools\gloom_resin_pickaxe.json
@@ -15,6 +16,7 @@ cb005cca0990ebcf3e591b5520c5198493234a74 data\gloomwood-mod\recipe\gloom_resin_h
 30ac9ce76fffe13d12d824ec756c83ede0909b7e data\gloomwood-mod\advancement\recipes\building_blocks\raw_runestone.json
 99ea41b95564a0427d5b3cdf33711d32bb1fe6a1 data\gloomwood-mod\advancement\recipes\misc\gloomwood_trapdoor.json
 2d0e7aaa131cba2f9879131431916a55e12247f5 data\gloomwood-mod\recipe\gloom_resin_chestplate.json
+47cc4542bc7b0f63cddbcfad03b41a3e119e1a61 data\gloomwood-mod\recipe\gloom_resin_hoe.json
 8d03c86fff6d23b1a4ab379f4de065e2b8651a9b data\gloomwood-mod\recipe\raw_runestone.json
 7015d9a7923f646a53ee537b766a66ace3acafe9 data\gloomwood-mod\advancement\recipes\building_blocks\gloom_steel_ingot.json
 e4eea00d2b5576c7cc167afd1b7902606fe45d06 data\gloomwood-mod\recipe\gloom_steel_sword.json
