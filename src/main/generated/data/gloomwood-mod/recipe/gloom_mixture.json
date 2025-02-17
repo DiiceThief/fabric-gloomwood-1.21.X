@@ -3,14 +3,14 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "gloomwood-mod:gloom_resin"
-    },
-    "S": {
       "item": "gloomwood-mod:raw_runestone"
+    },
+    "$": {
+      "item": "gloomwood-mod:gloom_resin"
     }
   },
   "pattern": [
-    "#S"
+    "$#"
   ],
   "result": {
     "count": 1,

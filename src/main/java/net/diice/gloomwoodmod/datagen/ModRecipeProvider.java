@@ -47,8 +47,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("$#")
                 .input('$', ModItems.GLOOM_RESIN)
                 .input('#', ModItems.RAW_RUNESTONE)
-                        .criterion(hasItem(ModItems.GLOOM_RESIN), conditionsFromItem(ModItems.GLOOM_RESIN))
-                                .offerTo(recipeExporter);
+                .criterion(hasItem(ModItems.GLOOM_RESIN), conditionsFromItem(ModItems.GLOOM_RESIN))
+                .offerTo(recipeExporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GLOOM_RESIN, 9)
                 .input(ModBlocks.GLOOM_RESIN_BLOCK)

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gloom_resin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gloomwood-mod:gloom_resin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gloomwood-mod:gloom_mixture"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gloom_resin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gloomwood-mod:gloom_mixture"
+    ]
+  }
+}
