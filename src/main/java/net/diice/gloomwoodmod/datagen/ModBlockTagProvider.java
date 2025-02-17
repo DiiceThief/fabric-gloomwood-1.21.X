@@ -52,7 +52,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GLOOM_STEEL_TOOL)
-                .forceAddTag(BlockTags.NEEDS_DIAMOND_TOOL);
+                .forceAddTag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.GLOOM_STEEL_BLOCK);
 
     }
 }

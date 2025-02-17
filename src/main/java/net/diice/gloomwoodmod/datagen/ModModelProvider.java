@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUNESTONE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_RESIN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUNESTONE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_STEEL_BLOCK);
 
         gloomwoodplanksPool.stairs(ModBlocks.GLOOMWOOD_STAIRS);
         gloomwoodplanksPool.slab(ModBlocks.GLOOMWOOD_SLAB);

@@ -74,6 +74,10 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.METAL)));
 
+    public static final Block GLOOM_STEEL_BLOCK = registerBlock("gloom_steel_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+
 
 
     private static Block registerBlock(String name, Block block) {
