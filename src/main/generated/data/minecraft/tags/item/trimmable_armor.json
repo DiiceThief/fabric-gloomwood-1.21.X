@@ -3,6 +3,10 @@
     "gloomwood-mod:gloom_resin_helmet",
     "gloomwood-mod:gloom_resin_chestplate",
     "gloomwood-mod:gloom_resin_leggings",
-    "gloomwood-mod:gloom_resin_boots"
+    "gloomwood-mod:gloom_resin_boots",
+    "gloomwood-mod:gloom_steel_boots",
+    "gloomwood-mod:gloom_steel_chestplate",
+    "gloomwood-mod:gloom_steel_leggings",
+    "gloomwood-mod:gloom_steel_boots"
   ]
 }
