@@ -48,10 +48,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GLOOM_RESIN_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GLOOM_RESIN_HOE, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.GLOOM_STEEL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLOOM_STEEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLOOM_STEEL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLOOM_STEEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GLOOM_STEEL_HOE, Models.HANDHELD);
+
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_STEEL_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_STEEL_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_STEEL_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_STEEL_BOOTS));
 
     }
 }

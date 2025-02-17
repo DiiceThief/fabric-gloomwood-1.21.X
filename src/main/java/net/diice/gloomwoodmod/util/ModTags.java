@@ -26,8 +26,12 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_GLOOM_RESIN_TOOL = createTag("needs_gloom_resin_tool");
         public static final TagKey<Block> INCORRECT_FOR_GLOOM_RESIN_TOOL = createTag("incorrect_for_gloom_resin_tool");
 
+        public static final TagKey<Block> NEEDS_GLOOM_STEEL_TOOL = createTag("needs_gloom_steel_tool");
+        public static final TagKey<Block> INCORRECT_FOR_GLOOM_STEEL_TOOL = createTag("incorrect_for_gloom_steel_tool");
+
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(GloomwoodMod.MOD_ID, name));
+
         }
     }
 }

@@ -15,7 +15,10 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     GLOOM_RESIN(ModTags.Blocks.INCORRECT_FOR_GLOOM_RESIN_TOOL,
-                1796, 9.0F, 4.0F, 13, () -> Ingredient.ofItems(ModItems.GLOOM_RESIN_INGOT));
+                1796, 9.0F, 4.0F, 13, () -> Ingredient.ofItems(ModItems.GLOOM_RESIN_INGOT)),
+
+    GLOOM_STEEL(ModTags.Blocks.INCORRECT_FOR_GLOOM_STEEL_TOOL,
+            2800, 10.0F, 5.0F, 17, () -> Ingredient.ofItems(ModItems.GLOOM_STEEL_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

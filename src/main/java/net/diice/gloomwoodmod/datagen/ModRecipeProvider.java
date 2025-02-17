@@ -106,6 +106,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.GLOOM_STEEL_SWORD, 1)
+                .pattern("#")
+                .pattern("#")
+                .pattern("S")
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
+                .offerTo(recipeExporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_RESIN_PICKAXE, 1)
                 .pattern("###")
                 .pattern(" S ")
@@ -113,6 +122,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', ModItems.GLOOM_RESIN_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_STEEL_PICKAXE, 1)
+                .pattern("###")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_RESIN_AXE, 1)
@@ -124,6 +142,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_STEEL_AXE, 1)
+                .pattern("##")
+                .pattern("#S")
+                .pattern(" S")
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
+                .offerTo(recipeExporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_RESIN_SHOVEL, 1)
                 .pattern("#")
                 .pattern("S")
@@ -133,13 +160,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
                 .offerTo(recipeExporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_RESIN_HOE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_STEEL_SHOVEL, 1)
+                .pattern("#")
+                .pattern("S")
+                .pattern("S")
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GLOOM_STEEL_HOE, 1)
                 .pattern("##")
                 .pattern(" S")
                 .pattern(" S")
-                .input('#', ModItems.GLOOM_RESIN_INGOT)
+                .input('#', ModItems.GLOOM_STEEL_INGOT)
                 .input('S', Items.STICK)
-                .criterion(hasItem(ModItems.GLOOM_RESIN_INGOT), conditionsFromItem(ModItems.GLOOM_RESIN_INGOT))
+                .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
                 .offerTo(recipeExporter);
     }
-    }
+}

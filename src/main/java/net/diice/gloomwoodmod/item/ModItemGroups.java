@@ -31,6 +31,12 @@ public class ModItemGroups {
                         entries.add(ModItems.GLOOM_RESIN_SHOVEL);
                         entries.add(ModItems.GLOOM_RESIN_HOE);
 
+                        entries.add(ModItems.GLOOM_STEEL_SWORD);
+                        entries.add(ModItems.GLOOM_STEEL_PICKAXE);
+                        entries.add(ModItems.GLOOM_STEEL_AXE);
+                        entries.add(ModItems.GLOOM_STEEL_SHOVEL);
+                        entries.add(ModItems.GLOOM_STEEL_HOE);
+
                         entries.add(ModItems.GLOOM_RESIN_HELMET);
                         entries.add(ModItems.GLOOM_RESIN_CHESTPLATE);
                         entries.add(ModItems.GLOOM_RESIN_LEGGINGS);

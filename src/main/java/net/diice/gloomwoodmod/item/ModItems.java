@@ -31,6 +31,21 @@ public static final Item GLOOM_STEEL_INGOT = registerItem("gloom_steel_ingot", n
     public static final Item GLOOM_RESIN_HOE = registerItem("gloom_resin_hoe", new HoeItem(ModToolMaterials.GLOOM_RESIN,
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.GLOOM_RESIN, 0, -3.0f))));
 
+    public static final Item GLOOM_STEEL_SWORD = registerItem("gloom_steel_sword", new SwordItem(ModToolMaterials.GLOOM_STEEL,
+            new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.GLOOM_STEEL, 3, -2.4f))));
+
+    public static final Item GLOOM_STEEL_PICKAXE = registerItem("gloom_steel_pickaxe", new PickaxeItem(ModToolMaterials.GLOOM_STEEL,
+            new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.GLOOM_STEEL, 3, -2.4f))));
+
+    public static final Item GLOOM_STEEL_AXE = registerItem("gloom_steel_axe", new AxeItem(ModToolMaterials.GLOOM_STEEL,
+            new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.GLOOM_STEEL, 6, -3.0f))));
+
+    public static final Item GLOOM_STEEL_SHOVEL = registerItem("gloom_steel_shovel", new ShovelItem(ModToolMaterials.GLOOM_STEEL,
+            new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.GLOOM_STEEL, 1.5f, -3.0f))));
+
+    public static final Item GLOOM_STEEL_HOE = registerItem("gloom_steel_hoe", new HoeItem(ModToolMaterials.GLOOM_STEEL,
+            new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.GLOOM_STEEL, 0, -3.0f))));
+
     public static final Item GLOOM_RESIN_HELMET = registerItem("gloom_resin_helmet",
             new ArmorItem(ModArmorMaterials.GLOOM_RESIN_ARMOR_MATERIAL,
                     ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));

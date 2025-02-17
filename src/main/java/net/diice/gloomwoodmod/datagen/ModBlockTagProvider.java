@@ -46,5 +46,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(WOODEN_FENCES).add(ModBlocks.GLOOMWOOD_FENCE);
         getOrCreateTagBuilder(FENCE_GATES).add(ModBlocks.GLOOMWOOD_FENCE_GATE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GLOOM_RESIN_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_GLOOM_STEEL_TOOL)
+                .addTag(NEEDS_DIAMOND_TOOL);
+
     }
 }

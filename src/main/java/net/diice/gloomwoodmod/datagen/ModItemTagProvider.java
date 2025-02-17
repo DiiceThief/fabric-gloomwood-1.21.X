@@ -31,15 +31,20 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.IRON_ORE);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.GLOOM_RESIN_SWORD);
+                .add(ModItems.GLOOM_RESIN_SWORD)
+                .add(ModItems.GLOOM_STEEL_SWORD);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.GLOOM_RESIN_PICKAXE);
+                .add(ModItems.GLOOM_RESIN_PICKAXE)
+                .add(ModItems.GLOOM_STEEL_PICKAXE);
         getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.GLOOM_RESIN_AXE);
+                .add(ModItems.GLOOM_RESIN_AXE)
+                .add(ModItems.GLOOM_STEEL_AXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.GLOOM_RESIN_SHOVEL);
+                .add(ModItems.GLOOM_RESIN_SHOVEL)
+                .add(ModItems.GLOOM_STEEL_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.GLOOM_RESIN_HOE);
+                .add(ModItems.GLOOM_RESIN_HOE)
+                .add(ModItems.GLOOM_STEEL_HOE);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.GLOOM_RESIN_HELMET)
