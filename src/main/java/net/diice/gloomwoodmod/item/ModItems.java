@@ -37,7 +37,7 @@ public static final Item GLOOM_STEEL_INGOT = registerItem("gloom_steel_ingot", n
     public static final Item GLOOM_RESIN_CHESTPLATE = registerItem("gloom_resin_chestplate",
             new ArmorItem(ModArmorMaterials.GLOOM_RESIN_ARMOR_MATERIAL,
                     ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
-    public static final Item GLOOM_RESIN_LEGGINGS = registerItem("gloom_resin_leggins",
+    public static final Item GLOOM_RESIN_LEGGINGS = registerItem("gloom_resin_leggings",
             new ArmorItem(ModArmorMaterials.GLOOM_RESIN_ARMOR_MATERIAL,
                     ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
     public static final Item GLOOM_RESIN_BOOTS = registerItem("gloom_resin_boots",
