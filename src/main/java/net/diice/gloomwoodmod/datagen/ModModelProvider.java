@@ -6,6 +6,7 @@ import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.network.packet.CustomPayload;
 import net.minecraft.util.Identifier;
 
@@ -46,5 +47,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GLOOM_RESIN_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GLOOM_RESIN_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GLOOM_RESIN_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_RESIN_BOOTS));
     }
 }

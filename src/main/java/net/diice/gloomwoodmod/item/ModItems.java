@@ -31,6 +31,19 @@ public static final Item GLOOM_STEEL_INGOT = registerItem("gloom_steel_ingot", n
     public static final Item GLOOM_RESIN_HOE = registerItem("gloom_resin_hoe", new HoeItem(ModToolMaterials.GLOOM_RESIN,
             new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.GLOOM_RESIN, 0, -3.0f))));
 
+    public static final Item GLOOM_RESIN_HELMET = registerItem("gloom_resin_helmet",
+            new ArmorItem(ModArmorMaterials.GLOOM_RESIN_ARMOR_MATERIAL,
+                    ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));
+    public static final Item GLOOM_RESIN_CHESTPLATE = registerItem("gloom_resin_chestplate",
+            new ArmorItem(ModArmorMaterials.GLOOM_RESIN_ARMOR_MATERIAL,
+                    ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
+    public static final Item GLOOM_RESIN_LEGGINGS = registerItem("gloom_resin_leggins",
+            new ArmorItem(ModArmorMaterials.GLOOM_RESIN_ARMOR_MATERIAL,
+                    ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
+    public static final Item GLOOM_RESIN_BOOTS = registerItem("gloom_resin_boots",
+            new ArmorItem(ModArmorMaterials.GLOOM_RESIN_ARMOR_MATERIAL,
+                    ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GloomwoodMod.MOD_ID, name), item);

@@ -31,6 +31,11 @@ public class ModItemGroups {
                         entries.add(ModItems.GLOOM_RESIN_SHOVEL);
                         entries.add(ModItems.GLOOM_RESIN_HOE);
 
+                        entries.add(ModItems.GLOOM_RESIN_HELMET);
+                        entries.add(ModItems.GLOOM_RESIN_CHESTPLATE);
+                        entries.add(ModItems.GLOOM_RESIN_LEGGINGS);
+                        entries.add(ModItems.GLOOM_RESIN_BOOTS);
+
                       entries.add(ModBlocks.RAW_RUNESTONE_BLOCK);
                       entries.add(ModBlocks.RUNESTONE_ORE);
                       entries.add(ModBlocks.GLOOM_STONE);

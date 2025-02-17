@@ -41,5 +41,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.GLOOM_RESIN_HOE);
 
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.GLOOM_RESIN_HELMET)
+                .add(ModItems.GLOOM_RESIN_CHESTPLATE)
+                .add(ModItems.GLOOM_RESIN_LEGGINGS)
+                .add(ModItems.GLOOM_RESIN_BOOTS);
     }
 }
