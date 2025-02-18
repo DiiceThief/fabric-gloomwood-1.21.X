@@ -2,6 +2,7 @@ package net.diice.gloomwoodmod;
 
 import net.diice.gloomwoodmod.block.ModBlocks;
 import net.diice.gloomwoodmod.component.ModDataComponentTypes;
+import net.diice.gloomwoodmod.effect.ModEffects;
 import net.diice.gloomwoodmod.item.ModItemGroups;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,6 +20,8 @@ public class GloomwoodMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModEffects.registerEffects();
 
 		ModDataComponentTypes.registerDataComponentTypes();
 

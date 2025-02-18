@@ -56,5 +56,7 @@
   "itemgroup.gloomwood-mod.gloomwood_items": "Gloomwood",
 
   "tooltip.gloomwood-mod.gloom_dial.shift_down": "Draws the Gloomwood into the Overworld...",
-  "tooltip.gloomwood-mod.gloom_dial": "Press Shift for more Information"
+  "tooltip.gloomwood-mod.gloom_dial": "Press Shift for more Information",
+
+  "effect.gloomwood-mod.detonation": "Detonation"
 }
