@@ -47,6 +47,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GLOOM_STEEL_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLOOM_ALLOY, Models.GENERATED);
         itemModelGenerator.register(ModItems.GLOOM_MIXTURE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ERUPTIVE_REEDS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.GLOOM_DIAL, Models.GENERATED);
 
