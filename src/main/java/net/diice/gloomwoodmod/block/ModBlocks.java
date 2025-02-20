@@ -1,7 +1,8 @@
 package net.diice.gloomwoodmod.block;
 
+import com.sun.jna.platform.unix.solaris.Kstat2StatusException;
 import net.diice.gloomwoodmod.GloomwoodMod;
-import net.diice.gloomwoodmod.block.custom.GloomFruit;
+import net.diice.gloomwoodmod.block.custom.ResinLamp;
 import net.diice.gloomwoodmod.world.tree.ModSaplingGenerators;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
@@ -55,7 +56,8 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
     public static final Block GLOOMWOOD_SIGN = registerBlock("gloomwood_sign",
             new SignBlock(WoodType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque().noCollision()));
 
-
+public static final Block RESIN_LAMP = registerBlock("resin_lamp",
+        new ResinLamp(AbstractBlock.Settings.create().strength(1f).requiresTool().luminance(state -> state.get(ResinLamp.CLICKED) ? 15 : 0)));
 
     public static final Block RAW_RUNESTONE_BLOCK = registerBlock("raw_runestone_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
@@ -67,10 +69,6 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block GLOOM_RESIN_BLOCK = registerBlock("gloom_resin_block",
             new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.BONE)));
-
-    public static final Block GLOOM_FRUIT = registerBlock("gloom_fruit",
-            new GloomFruit(AbstractBlock.Settings.create()
-                    .strength(3f).requiresTool().luminance(state -> state.get(GloomFruit.CLICKED) ? 15 : 0)));
 
     public static final Block GLOOM_RESIN_INGOT_BLOCK = registerBlock("gloom_resin_ingot_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
