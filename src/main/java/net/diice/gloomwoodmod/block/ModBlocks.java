@@ -3,6 +3,7 @@ package net.diice.gloomwoodmod.block;
 import com.sun.jna.platform.unix.solaris.Kstat2StatusException;
 import net.diice.gloomwoodmod.GloomwoodMod;
 import net.diice.gloomwoodmod.block.custom.ResinLamp;
+import net.diice.gloomwoodmod.block.custom.ResinLamp;
 import net.diice.gloomwoodmod.world.tree.ModSaplingGenerators;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;

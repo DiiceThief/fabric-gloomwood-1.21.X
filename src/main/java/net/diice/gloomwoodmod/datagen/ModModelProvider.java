@@ -1,6 +1,7 @@
 package net.diice.gloomwoodmod.datagen;
 
 import net.diice.gloomwoodmod.block.ModBlocks;
+import net.diice.gloomwoodmod.block.custom.ResinLamp;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -40,6 +41,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.GLOOMWOOD_LOG).log(ModBlocks.GLOOMWOOD_LOG).wood(ModBlocks.GLOOMWOOD_WOOD);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_GLOOMWOOD_LOG).log(ModBlocks.STRIPPED_GLOOMWOOD_LOG).wood(ModBlocks.STRIPPED_GLOOMWOOD_WOOD);
 
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.RESIN_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.RESIN_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.RESIN_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(ResinLamp.CLICKED, lampOnIdentifier, lampOffIdentifier)));
     }
 
     @Override
