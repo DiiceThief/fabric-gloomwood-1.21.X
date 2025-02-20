@@ -75,6 +75,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.GLOOM_STEEL_BLOCK);
 
                       entries.add(ModBlocks.GLOOM_FRUIT);
+                      entries.add(ModBlocks.GLOOMWOOD_SAPLING);
 
                     }).build());
     public static void registerItemGroups() {

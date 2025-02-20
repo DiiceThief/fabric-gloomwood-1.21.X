@@ -1,4 +1,4 @@
-// 1.21	2025-02-19T10:35:48.0812966	Gloomwood Mod/Block Loot Tables
+// 1.21	2025-02-20T14:06:53.939042	Gloomwood Mod/Block Loot Tables
 061b2b650f7a8a2ae40f127eabb758b6a9c091aa data\gloomwood-mod\loot_table\blocks\gloom_resin_block.json
 a3e3558ce053822943b542bac1b6e4f33ac1b842 data\gloomwood-mod\loot_table\blocks\stripped_gloomwood_log.json
 0d4366fce3c19e116328f0d8a92bb4dbbb941e4a data\gloomwood-mod\loot_table\blocks\gloomwood_planks.json
@@ -14,4 +14,5 @@ ccad2ef5a9100cfb923caf484d5a77ca3a0bc3de data\gloomwood-mod\loot_table\blocks\ra
 576f9e8f4cc140a991cc525a4aad733d5479c825 data\gloomwood-mod\loot_table\blocks\gloomwood_fence.json
 fbec9371c2642f2a7b3979a55696223d47027087 data\gloomwood-mod\loot_table\blocks\gloomwood_log.json
 7aad67ba69e9fb5acd6b34c7811e22547f98f2f3 data\gloomwood-mod\loot_table\blocks\runestone_ore.json
+c3f3ef38ff5ab57cea071f6de0b30e4abc95af75 data\gloomwood-mod\loot_table\blocks\gloom_leaves.json
 ba22894450eee4bdc85839eab966c530fe8c5410 data\gloomwood-mod\loot_table\blocks\gloomwood_door.json

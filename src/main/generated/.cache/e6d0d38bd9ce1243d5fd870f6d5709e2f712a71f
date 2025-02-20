@@ -1,7 +1,8 @@
-// 1.21	2025-02-19T10:35:48.0802509	Gloomwood Mod/Tags for minecraft:block
+// 1.21	2025-02-20T14:06:53.9380375	Gloomwood Mod/Tags for minecraft:block
+3bebc6a6b467c801217de3bb5b88b52a01f80b3e data\minecraft\tags\block\logs_that_burn.json
 c83c8f2e49f83d3ca52fa27dab26639920e6aa23 data\gloomwood-mod\tags\block\needs_gloom_steel_tool.json
-5d1eb3aacd46c5c1747e716fb09d5b84d82e02f7 data\minecraft\tags\block\needs_iron_tool.json
 5d1eb3aacd46c5c1747e716fb09d5b84d82e02f7 data\minecraft\tags\block\mineable\pickaxe.json
+5d1eb3aacd46c5c1747e716fb09d5b84d82e02f7 data\minecraft\tags\block\needs_iron_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\gloomwood-mod\tags\block\needs_gloom_resin_tool.json
 065e96df470f846936fef7b2637695709c4cc491 data\minecraft\tags\block\mineable\axe.json
 9a014906a0cd996d7875c0c5dfc0d1b3b22ba17e data\minecraft\tags\block\wooden_fences.json

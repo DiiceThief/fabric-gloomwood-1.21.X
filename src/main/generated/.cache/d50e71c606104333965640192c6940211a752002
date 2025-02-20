@@ -1,8 +1,10 @@
-// 1.21	2025-02-19T10:35:48.0781687	Gloomwood Mod/Tags for minecraft:item
+// 1.21	2025-02-20T14:06:53.9370402	Gloomwood Mod/Tags for minecraft:item
 f1d746221510b97df71a4903345c7b39912c3731 data\gloomwood-mod\tags\item\transformable_items.json
 d403553441c1f844073f4126dcc2d99bc3b394eb data\minecraft\tags\item\axes.json
+c61ee236e74580eb836c0e7d44c72a17a3a72a4f data\minecraft\tags\item\logs_that_burn.json
 32f4083d167c22ac1055b0e02721a01d417019c5 data\minecraft\tags\item\hoes.json
 60d5e9fea0615392053434353ce4791353749538 data\minecraft\tags\item\trimmable_armor.json
 3c91f613746e7236ed3c5fe3da569965cd5e2972 data\minecraft\tags\item\pickaxes.json
 160f385a05d0682550807b1a8df1c8ee6e87ac41 data\minecraft\tags\item\swords.json
+575d51203f991e4ba00918daeb0576f79e75232b data\minecraft\tags\item\planks.json
 f4d92199f6798fd68d9839cc988596b7909d6154 data\minecraft\tags\item\shovels.json

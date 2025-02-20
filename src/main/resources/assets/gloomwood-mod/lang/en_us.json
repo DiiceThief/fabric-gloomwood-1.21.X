@@ -11,6 +11,7 @@
   "item.minecraft.potion.effect.detonation_potion": "Detonation Potion",
   "item.minecraft.splash_potion.effect.detonation_potion": "Detonation Splash Potion",
   "item.minecraft.lingering_potion.effect.detonation_potion": "Detonation Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.detonation_potion": "Detonation Arrow",
 
   "item.gloomwood-mod.gloom_resin_sword": "Gloom Resin Sword",
   "item.gloomwood-mod.gloom_resin_pickaxe": "Gloom Resin Pickaxe",
@@ -48,6 +49,7 @@
   "block.gloomwood-mod.gloomwood_trapdoor": "Gloomwood Door",
   "block.gloomwood-mod.gloom_leaves": "Gloom Leaves",
   "block.gloomwood-mod.gloomwood_sign": "Gloomwood Sign",
+  "block.gloomwood-mod.gloomwood_sapling": "Gloomwood Sapling",
 
   "block.gloomwood-mod.runestone_ore": "Runestone Ore",
   "block.gloomwood-mod.raw_runestone_block": "Block of Raw Runestone",

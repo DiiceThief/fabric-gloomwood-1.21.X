@@ -54,6 +54,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.GLOOMWOOD_DOOR, doorDrops(ModBlocks.GLOOMWOOD_DOOR));
         addDrop(ModBlocks.GLOOMWOOD_SLAB, slabDrops(ModBlocks.GLOOMWOOD_SLAB));
+
+        addDrop(ModBlocks.GLOOM_LEAVES, leavesDrops(ModBlocks.GLOOM_LEAVES, ModBlocks.GLOOMWOOD_SAPLING, 0.0625f));
     }
 
         public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

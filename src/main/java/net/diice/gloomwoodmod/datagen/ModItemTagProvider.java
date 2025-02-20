@@ -1,9 +1,11 @@
 package net.diice.gloomwoodmod.datagen;
 
+import net.diice.gloomwoodmod.block.ModBlocks;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.diice.gloomwoodmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.datafixer.fix.ItemLoreToTextFix;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
@@ -56,5 +58,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GLOOM_STEEL_CHESTPLATE)
                 .add(ModItems.GLOOM_STEEL_LEGGINGS)
                 .add(ModItems.GLOOM_STEEL_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+            .add(ModBlocks.STRIPPED_GLOOMWOOD_LOG.asItem())
+                .add(ModBlocks.STRIPPED_GLOOMWOOD_WOOD.asItem())
+                .add(ModBlocks.GLOOMWOOD_LOG.asItem())
+                .add(ModBlocks.GLOOMWOOD_WOOD.asItem());
+
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.GLOOMWOOD_PLANKS.asItem());
     }
 }

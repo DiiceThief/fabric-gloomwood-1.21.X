@@ -2,6 +2,7 @@ package net.diice.gloomwoodmod.block;
 
 import net.diice.gloomwoodmod.GloomwoodMod;
 import net.diice.gloomwoodmod.block.custom.GloomFruit;
+import net.diice.gloomwoodmod.world.tree.ModSaplingGenerators;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -19,16 +20,17 @@ public class ModBlocks {
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).strength(2f)
                     .sounds(BlockSoundGroup.WOOD).burnable()));
     public static final Block STRIPPED_GLOOMWOOD_LOG = registerBlock("stripped_gloomwood_log",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG).strength(2f)
-                    .sounds(BlockSoundGroup.WOOD).burnable()));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_LOG)));
     public static final Block GLOOMWOOD_WOOD = registerBlock("gloomwood_wood",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD).strength(2f)
-                    .sounds(BlockSoundGroup.WOOD).burnable()));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
     public static final Block STRIPPED_GLOOMWOOD_WOOD = registerBlock("stripped_gloomwood_wood",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD).strength(2f)
-                    .sounds(BlockSoundGroup.WOOD).burnable()));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
+    public static final Block GLOOM_LEAVES = registerBlock("gloom_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
 public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
-        new Block(AbstractBlock.Settings.create().strength(2f).burnable()));
+        new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+    public static final Block GLOOMWOOD_SAPLING = registerBlock("gloomwood_sapling",
+            new SaplingBlock(ModSaplingGenerators.GLOOMWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
 
 public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
         new StairsBlock(ModBlocks.GLOOMWOOD_PLANKS.getDefaultState(),
@@ -52,8 +54,6 @@ public static final Block GLOOMWOOD_STAIRS = registerBlock("gloomwood_stairs",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
     public static final Block GLOOMWOOD_SIGN = registerBlock("gloomwood_sign",
             new SignBlock(WoodType.OAK, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque().noCollision()));
-    public static final Block GLOOM_LEAVES = registerBlock("gloom_leaves",
-            new LeavesBlock(AbstractBlock.Settings.create().strength( 2f).requiresTool().nonOpaque()));
 
 
 

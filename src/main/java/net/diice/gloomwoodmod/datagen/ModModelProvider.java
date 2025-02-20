@@ -18,15 +18,16 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool gloomwoodplanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOOMWOOD_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUNESTONE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_RESIN_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUNESTONE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_STEEL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_RESIN_INGOT_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_STONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.GLOOM_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.GLOOMWOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
+        BlockStateModelGenerator.BlockTexturePool gloomwoodplanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOOMWOOD_PLANKS);
         gloomwoodplanksPool.stairs(ModBlocks.GLOOMWOOD_STAIRS);
         gloomwoodplanksPool.slab(ModBlocks.GLOOMWOOD_SLAB);
         gloomwoodplanksPool.button(ModBlocks.GLOOMWOOD_BUTTON);
@@ -36,6 +37,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.GLOOMWOOD_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.GLOOMWOOD_TRAPDOOR);
+
+        blockStateModelGenerator.registerLog(ModBlocks.GLOOMWOOD_LOG).log(ModBlocks.GLOOMWOOD_LOG).wood(ModBlocks.GLOOMWOOD_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_GLOOMWOOD_LOG).log(ModBlocks.STRIPPED_GLOOMWOOD_LOG).wood(ModBlocks.STRIPPED_GLOOMWOOD_WOOD);
 
     }
 
