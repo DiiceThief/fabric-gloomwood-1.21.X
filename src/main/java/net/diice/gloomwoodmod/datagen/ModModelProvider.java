@@ -1,7 +1,6 @@
 package net.diice.gloomwoodmod.datagen;
 
 import net.diice.gloomwoodmod.block.ModBlocks;
-import net.diice.gloomwoodmod.block.custom.GloomFruit;
 import net.diice.gloomwoodmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
