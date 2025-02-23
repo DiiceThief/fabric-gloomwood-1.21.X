@@ -27,7 +27,7 @@ public class ModBlocks {
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_WOOD)));
     public static final Block STRIPPED_GLOOMWOOD_WOOD = registerBlock("stripped_gloomwood_wood",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_OAK_WOOD)));
-    public static final Block GLOOM_LEAVES = registerBlock("gloom_leaves",
+    public static final Block GLOOMWOOD_LEAVES = registerBlock("gloom_leaves",
             new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES)));
 public static final Block GLOOMWOOD_PLANKS = registerBlock("gloomwood_planks",
         new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));

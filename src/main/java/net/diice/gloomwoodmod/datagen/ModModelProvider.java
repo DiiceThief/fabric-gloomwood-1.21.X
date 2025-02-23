@@ -24,7 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_STEEL_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_RESIN_INGOT_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOOM_STONE);
-        blockStateModelGenerator.registerSingleton(ModBlocks.GLOOM_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerSingleton(ModBlocks.GLOOMWOOD_LEAVES, TexturedModel.LEAVES);
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.GLOOMWOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
         BlockStateModelGenerator.BlockTexturePool gloomwoodplanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GLOOMWOOD_PLANKS);
