@@ -27,7 +27,7 @@ public class ModConfiguredFeatures {
 
         register(context, GLOOMWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.GLOOMWOOD_LOG),
-                new DarkOakTrunkPlacer(5, 6, 3),
+                new StraightTrunkPlacer(5, 6, 3),
 
                 BlockStateProvider.of(ModBlocks.GLOOMWOOD_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(1), 3),
