@@ -3,6 +3,7 @@ package net.diice.gloomwoodmod;
 import net.diice.gloomwoodmod.datagen.*;
 import net.diice.gloomwoodmod.world.ModConfiguredFeatures;
 import net.diice.gloomwoodmod.world.ModPlacedFeatures;
+import net.diice.gloomwoodmod.world.gen.ModWorldGeneration;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -17,6 +18,7 @@ public class GloomwoodModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModRegistryDataGenerator::new);
 
 	}
 	public void buildRegistry(RegistryBuilder registryBuilder) {

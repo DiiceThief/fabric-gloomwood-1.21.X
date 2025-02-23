@@ -81,5 +81,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_STEEL_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.GLOOM_STEEL_BOOTS));
 
+        itemModelGenerator.register(ModBlocks.GLOOMWOOD_SAPLING.asItem(), Models.GENERATED);
+
     }
 }

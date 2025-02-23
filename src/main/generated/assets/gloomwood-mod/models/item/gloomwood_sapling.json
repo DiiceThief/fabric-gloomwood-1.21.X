@@ -1,3 +1,6 @@
 {
-  "parent": "gloomwood-mod:block/gloomwood_sapling"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gloomwood-mod:item/gloomwood_sapling"
+  }
 }
