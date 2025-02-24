@@ -242,13 +242,35 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.GLOOM_STEEL_INGOT), conditionsFromItem(ModItems.GLOOM_STEEL_INGOT))
                 .offerTo(recipeExporter);
 
-        createStairsRecipe(ModBlocks.GLOOMWOOD_STAIRS, Ingredient.ofItems(ModBlocks.GLOOMWOOD_PLANKS)).offerTo(recipeExporter);
-        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_SLAB, Ingredient.ofItems(ModBlocks.GLOOMWOOD_PLANKS)).offerTo(recipeExporter);
-        createPressurePlateRecipe(RecipeCategory.REDSTONE, ModBlocks.GLOOMWOOD_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.GLOOMWOOD_PLANKS)).offerTo(recipeExporter);
-        createDoorRecipe(ModBlocks.GLOOMWOOD_DOOR, Ingredient.ofItems(ModBlocks.GLOOMWOOD_PLANKS)).offerTo(recipeExporter);
-        createTrapdoorRecipe(ModBlocks.GLOOMWOOD_TRAPDOOR, Ingredient.ofItems(ModBlocks.GLOOMWOOD_PLANKS)).offerTo(recipeExporter);
-        createFenceRecipe(ModBlocks.GLOOMWOOD_FENCE, Ingredient.ofItems(ModBlocks.GLOOMWOOD_PLANKS)).offerTo(recipeExporter);
-        createFenceGateRecipe(ModBlocks.GLOOMWOOD_FENCE_GATE, Ingredient.ofItems(ModBlocks.GLOOMWOOD_PLANKS)).offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_STAIRS, 4)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .input('#', ModBlocks.GLOOMWOOD_PLANKS)
+                .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_SLAB, 6)
+                .pattern("###")
+                .input('#', ModBlocks.GLOOMWOOD_PLANKS)
+                .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_FENCE, 3)
+                .pattern("#$#")
+                .pattern("#$#")
+                .input('#', ModBlocks.GLOOMWOOD_PLANKS)
+                .input('$', Items.STICK)
+                .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GLOOMWOOD_FENCE_GATE, 1)
+                .pattern("$#$")
+                .pattern("$#$")
+                .input('#', ModBlocks.GLOOMWOOD_PLANKS)
+                .input('$', Items.STICK)
+                .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
+                .offerTo(recipeExporter);
 
     }
 }
