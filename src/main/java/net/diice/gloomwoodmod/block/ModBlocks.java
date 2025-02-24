@@ -7,6 +7,7 @@ import net.diice.gloomwoodmod.block.custom.ResinLamp;
 import net.diice.gloomwoodmod.world.tree.ModSaplingGenerators;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -78,6 +79,16 @@ public static final Block RESIN_LAMP = registerBlock("resin_lamp",
     public static final Block GLOOM_STEEL_BLOCK = registerBlock("gloom_steel_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.METAL)));
+
+
+
+    public static final Block ERUPTIVE_REEDS = registerBlock(
+            "eruptive_reeds",
+            new SugarCaneBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN)
+                            .noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.GRASS)
+                            .pistonBehavior(PistonBehavior.DESTROY)
+            )
+    );
 
 
 

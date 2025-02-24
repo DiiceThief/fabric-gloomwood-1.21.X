@@ -45,6 +45,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.RESIN_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.RESIN_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(ResinLamp.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.ERUPTIVE_REEDS, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

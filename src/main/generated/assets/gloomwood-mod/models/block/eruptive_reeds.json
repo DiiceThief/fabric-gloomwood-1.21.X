@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "gloomwood-mod:block/eruptive_reeds"
+  }
+}
