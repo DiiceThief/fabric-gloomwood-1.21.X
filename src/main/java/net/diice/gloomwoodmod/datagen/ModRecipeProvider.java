@@ -272,5 +272,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.GLOOMWOOD_PLANKS), conditionsFromItem(ModBlocks.GLOOMWOOD_PLANKS))
                 .offerTo(recipeExporter);
 
+        createDoorRecipe(ModBlocks.GLOOMWOOD_DOOR, Ingredient.ofItems(ModBlocks.GLOOMWOOD_PLANKS));
+
     }
 }
