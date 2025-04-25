@@ -4,6 +4,8 @@ import net.diice.gloomwoodmod.GloomwoodMod;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.damage.DamageSources;
+import net.minecraft.entity.damage.DamageTypes;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
@@ -29,9 +31,9 @@ public class DetonationEffect extends StatusEffect {
         if (entity.isOnFire()) {
             World world = entity.getWorld();
             if (!world.isClient()) {
-                world.createExplosion(entity, entity.getX(), entity.getY(), entity.getZ(),
-                                        (float) 3, entity.removeStatusEffect(ModEffects.DETONATION),
-                        World.ExplosionSourceType.MOB);
+                world.createExplosion(entity, entity.getX(), entity.getY()+1, entity.getZ(),
+                        (float) 1, entity.removeStatusEffect(ModEffects.DETONATION),
+                        World.ExplosionSourceType.TNT);
                 return true;
             }
         }
