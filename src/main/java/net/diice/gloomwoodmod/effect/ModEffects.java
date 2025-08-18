@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModEffects {
     public static final RegistryEntry<StatusEffect> DETONATION = registerStatusEffect("detonation",
-            new DetonationEffect(StatusEffectCategory.NEUTRAL, 0xff004f)
+            new DetonationEffect(StatusEffectCategory.HARMFUL, 0xff004f)
                     .addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED,
                             Identifier.of(GloomwoodMod.MOD_ID, "detonation"), +0.25f,
             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
